@@ -1,0 +1,3646 @@
+{
+  "version": "1.0.0",
+  "description": "Suno AI Prompt Generator 统一数据文件",
+  "last_updated": "2026-02-22",
+  "data": {
+    "genres": {
+      "A": [
+        [
+          "Acapella",
+          "无伴奏合唱"
+        ],
+        [
+          "Acid Jazz",
+          "酸爵士"
+        ],
+        [
+          "Acid Rock",
+          "酸摇滚"
+        ],
+        [
+          "Acoustic",
+          "原声"
+        ],
+        [
+          "Adult Contemporary",
+          "成人当代"
+        ],
+        [
+          "Afrobeat",
+          "非洲节拍"
+        ],
+        [
+          "Ambient",
+          "氛围音乐"
+        ],
+        [
+          "Americana",
+          "美国民谣"
+        ],
+        [
+          "Arabian",
+          "阿拉伯风格"
+        ],
+        [
+          "Atmospheric",
+          "大气氛围"
+        ],
+        [
+          "Avant-garde",
+          "前卫"
+        ]
+      ],
+      "B": [
+        [
+          "Background",
+          "背景音乐"
+        ],
+        [
+          "Banger",
+          "炸场歌曲"
+        ],
+        [
+          "Bass",
+          "贝斯"
+        ],
+        [
+          "Big Band",
+          "大乐团"
+        ],
+        [
+          "Bluegrass",
+          "蓝草音乐"
+        ],
+        [
+          "Blues",
+          "布鲁斯"
+        ],
+        [
+          "Bollywood",
+          "宝莱坞"
+        ],
+        [
+          "Bossa Nova",
+          "波萨诺瓦"
+        ],
+        [
+          "Breakbeat",
+          "碎拍"
+        ],
+        [
+          "Broadway",
+          "百老汇"
+        ]
+      ],
+      "C": [
+        [
+          "Cajun",
+          "卡津"
+        ],
+        [
+          "Celtic",
+          "凯尔特"
+        ],
+        [
+          "Chamber Pop",
+          "室内流行"
+        ],
+        [
+          "Children's Music",
+          "儿童音乐"
+        ],
+        [
+          "Chillout",
+          "放松音乐"
+        ],
+        [
+          "Chiptune",
+          "芯片音乐"
+        ],
+        [
+          "Christian",
+          "基督教音乐"
+        ],
+        [
+          "Classical",
+          "古典"
+        ],
+        [
+          "Comedy",
+          "喜剧"
+        ],
+        [
+          "Country",
+          "乡村"
+        ],
+        [
+          "Cuban",
+          "古巴"
+        ]
+      ],
+      "D": [
+        [
+          "Dance",
+          "舞曲"
+        ],
+        [
+          "Dancehall",
+          "舞厅音乐"
+        ],
+        [
+          "Darkwave",
+          "暗波"
+        ],
+        [
+          "Deep House",
+          "浩室"
+        ],
+        [
+          "Disco",
+          "迪斯科"
+        ],
+        [
+          "DnB",
+          "鼓与贝斯"
+        ],
+        [
+          "Dub",
+          "回响贝斯"
+        ],
+        [
+          "Dubstep",
+          "回响贝斯"
+        ],
+        [
+          "Dutch House",
+          "荷兰浩室"
+        ],
+        [
+          "Dystopian",
+          "反乌托邦"
+        ]
+      ],
+      "E": [
+        [
+          "EDM",
+          "电子舞曲"
+        ],
+        [
+          "Electro",
+          "电子"
+        ],
+        [
+          "Electronic",
+          "电子音乐"
+        ],
+        [
+          "Emo",
+          "情绪摇滚"
+        ],
+        [
+          "Ethno",
+          "民族音乐"
+        ],
+        [
+          "Eurodance",
+          "欧洲舞曲"
+        ],
+        [
+          "Experimental",
+          "实验音乐"
+        ],
+        [
+          "Exotic",
+          "异域风情"
+        ]
+      ],
+      "F": [
+        [
+          "Folk",
+          "民谣"
+        ],
+        [
+          "Funk",
+          "放克"
+        ],
+        [
+          "Future Bass",
+          "未来贝斯"
+        ],
+        [
+          "Future House",
+          "未来浩室"
+        ]
+      ],
+      "G": [
+        [
+          "Gabber",
+          "加布"
+        ],
+        [
+          "Game",
+          "游戏音乐"
+        ],
+        [
+          "Garage",
+          "车库音乐"
+        ],
+        [
+          "Glam Rock",
+          "华丽摇滚"
+        ],
+        [
+          "Gospel",
+          "福音"
+        ],
+        [
+          "Gothic",
+          "哥特"
+        ],
+        [
+          "Grime",
+          "格里姆"
+        ],
+        [
+          "Grunge",
+          "垃圾摇滚"
+        ]
+      ],
+      "H": [
+        [
+          "Hard Rock",
+          "硬摇滚"
+        ],
+        [
+          "Hardcore",
+          "硬核"
+        ],
+        [
+          "Hardstyle",
+          "硬派"
+        ],
+        [
+          "Heavy Metal",
+          "重金属"
+        ],
+        [
+          "Hip Hop",
+          "嘻哈"
+        ],
+        [
+          "House",
+          "浩室"
+        ],
+        [
+          "Humor",
+          "幽默"
+        ]
+      ],
+      "I": [
+        [
+          "Indie",
+          "独立"
+        ],
+        [
+          "Indie Pop",
+          "独立流行"
+        ],
+        [
+          "Indie Rock",
+          "独立摇滚"
+        ],
+        [
+          "Industrial",
+          "工业"
+        ],
+        [
+          "Instrumental",
+          "器乐"
+        ],
+        [
+          "Islamic",
+          "伊斯兰"
+        ]
+      ],
+      "J": [
+        [
+          "Jazz",
+          "爵士"
+        ],
+        [
+          "J-Pop",
+          "日本流行"
+        ],
+        [
+          "Jungle",
+          "丛林音乐"
+        ]
+      ],
+      "K": [
+        [
+          "K-Pop",
+          "韩国流行"
+        ]
+      ],
+      "L": [
+        [
+          "Latin",
+          "拉丁"
+        ],
+        [
+          "Lo-fi",
+          "低保真"
+        ]
+      ],
+      "M": [
+        [
+          "Mambo",
+          "曼波"
+        ],
+        [
+          "Mandarin Pop",
+          "华语流行"
+        ],
+        [
+          "Mariachi",
+          "墨西哥流浪乐队"
+        ],
+        [
+          "Medieval",
+          "中世纪"
+        ],
+        [
+          "Metal",
+          "金属"
+        ],
+        [
+          "Minimal",
+          "极简主义"
+        ],
+        [
+          "Moombahton",
+          "莫巴顿"
+        ],
+        [
+          "Motown",
+          "摩城"
+        ],
+        [
+          "Musical",
+          "音乐剧"
+        ]
+      ],
+      "N": [
+        [
+          "Native American",
+          "美洲原住民"
+        ],
+        [
+          "New Age",
+          "新世纪"
+        ],
+        [
+          "New Wave",
+          "新浪潮"
+        ],
+        [
+          "Nintendocore",
+          "任天堂核"
+        ],
+        [
+          "Noir",
+          "黑色电影"
+        ],
+        [
+          "Noise",
+          "噪音"
+        ]
+      ],
+      "O": [
+        [
+          "Orchestral",
+          "管弦乐"
+        ],
+        [
+          "Oriental",
+          "东方"
+        ]
+      ],
+      "P": [
+        [
+          "Pop",
+          "流行"
+        ],
+        [
+          "Pop Punk",
+          "流行朋克"
+        ],
+        [
+          "Pop Rock",
+          "流行摇滚"
+        ],
+        [
+          "Post-Rock",
+          "后摇"
+        ],
+        [
+          "Power Metal",
+          "力量金属"
+        ],
+        [
+          "Progressive",
+          "前卫摇滚"
+        ],
+        [
+          "Psychedelic",
+          "迷幻"
+        ],
+        [
+          "Punk",
+          "朋克"
+        ]
+      ],
+      "Q": [
+        [
+          "Quartet",
+          "四重奏"
+        ]
+      ],
+      "R": [
+        [
+          "R&B",
+          "节奏蓝调"
+        ],
+        [
+          "Rap",
+          "说唱"
+        ],
+        [
+          "Reggae",
+          "雷鬼"
+        ],
+        [
+          "Reggaeton",
+          "雷鬼顿"
+        ],
+        [
+          "Retro",
+          "复古"
+        ],
+        [
+          "Rock",
+          "摇滚"
+        ],
+        [
+          "Rockabilly",
+          "山地摇滚"
+        ]
+      ],
+      "S": [
+        [
+          "Salsa",
+          "萨尔萨"
+        ],
+        [
+          "Samba",
+          "桑巴"
+        ],
+        [
+          "Shoegaze",
+          "自赏"
+        ],
+        [
+          "Ska",
+          "斯卡"
+        ],
+        [
+          "Soul",
+          "灵魂乐"
+        ],
+        [
+          "Soundtrack",
+          "原声带"
+        ],
+        [
+          "Space",
+          "太空音乐"
+        ],
+        [
+          "Spanish",
+          "西班牙"
+        ],
+        [
+          "Synthwave",
+          "合成波"
+        ]
+      ],
+      "T": [
+        [
+          "Tango",
+          "探戈"
+        ],
+        [
+          "Tech House",
+          "科技浩室"
+        ],
+        [
+          "Techno",
+          "科技舞曲"
+        ],
+        [
+          "Trance",
+          "迷幻舞曲"
+        ],
+        [
+          "Trap",
+          "陷阱"
+        ],
+        [
+          "Tribal",
+          "部落"
+        ],
+        [
+          "Trip Hop",
+          "迷幻嘻哈"
+        ]
+      ],
+      "V": [
+        [
+          "Vaporwave",
+          "蒸汽波"
+        ],
+        [
+          "Video Game",
+          "电子游戏"
+        ]
+      ],
+      "W": [
+        [
+          "Waltz",
+          "圆舞曲"
+        ],
+        [
+          "Western",
+          "西部"
+        ]
+      ],
+      "Z": [
+        [
+          "Zouk",
+          "祖克"
+        ]
+      ]
+    },
+    "tempos": {
+      "0-60": [
+        [
+          "Adagio",
+          "柔板 (40-60 BPM)"
+        ],
+        [
+          "Largo",
+          "广板 (40-60 BPM)"
+        ],
+        [
+          "Grave",
+          "庄板 (40-60 BPM)"
+        ]
+      ],
+      "60-80": [
+        [
+          "Andante",
+          "行板 (60-80 BPM)"
+        ],
+        [
+          "Larghetto",
+          "小广板 (60-66 BPM)"
+        ],
+        [
+          "Adagietto",
+          "小柔板 (66-76 BPM)"
+        ]
+      ],
+      "80-120": [
+        [
+          "Moderato",
+          "中板 (80-120 BPM)"
+        ],
+        [
+          "Allegretto",
+          "小快板 (100-110 BPM)"
+        ]
+      ],
+      "120-160": [
+        [
+          "Allegro",
+          "快板 (120-160 BPM)"
+        ],
+        [
+          "Vivace",
+          "活泼快板 (140-160 BPM)"
+        ]
+      ],
+      "160+": [
+        [
+          "Presto",
+          "急板 (160-180 BPM)"
+        ],
+        [
+          "Prestissimo",
+          "最急板 (180+ BPM)"
+        ]
+      ]
+    },
+    "styles": {
+      "A": [
+        [
+          "Acoustic",
+          "原声"
+        ],
+        [
+          "Ambient",
+          "氛围"
+        ],
+        [
+          "Angry",
+          "愤怒"
+        ],
+        [
+          "Anthemic",
+          "赞歌般"
+        ],
+        [
+          "Arpeggiated",
+          "琶音"
+        ]
+      ],
+      "B": [
+        [
+          "Ballad",
+          "民谣"
+        ],
+        [
+          "Baroque",
+          "巴洛克"
+        ],
+        [
+          "Bass-heavy",
+          "重低音"
+        ],
+        [
+          "Beautiful",
+          "美丽"
+        ],
+        [
+          "Bluesy",
+          "布鲁斯风格"
+        ]
+      ],
+      "C": [
+        [
+          "Calm",
+          "平静"
+        ],
+        [
+          "Cinematic",
+          "电影感"
+        ],
+        [
+          "Classical",
+          "古典"
+        ],
+        [
+          "Clean",
+          "干净"
+        ],
+        [
+          "Complex",
+          "复杂"
+        ]
+      ],
+      "D": [
+        [
+          "Dark",
+          "黑暗"
+        ],
+        [
+          "Deep",
+          "深沉"
+        ],
+        [
+          "Dreamy",
+          "梦幻"
+        ],
+        [
+          "Dramatic",
+          "戏剧性"
+        ],
+        [
+          "Driving",
+          "驱动"
+        ]
+      ],
+      "E": [
+        [
+          "Energetic",
+          "充满活力"
+        ],
+        [
+          "Emotional",
+          "情感丰富"
+        ],
+        [
+          "Epic",
+          "史诗"
+        ],
+        [
+          "Ethereal",
+          "空灵"
+        ],
+        [
+          "Experimental",
+          "实验"
+        ]
+      ]
+    },
+    "instruments": [
+      [
+        "Acoustic Guitar",
+        "原声吉他"
+      ],
+      [
+        "Electric Guitar",
+        "电吉他"
+      ],
+      [
+        "Piano",
+        "钢琴"
+      ],
+      [
+        "Strings",
+        "弦乐"
+      ],
+      [
+        "Brass",
+        "铜管"
+      ],
+      [
+        "Synth",
+        "合成器"
+      ],
+      [
+        "Drums",
+        "鼓"
+      ],
+      [
+        "Bass",
+        "贝斯"
+      ],
+      [
+        "Violin",
+        "小提琴"
+      ],
+      [
+        "Cello",
+        "大提琴"
+      ],
+      [
+        "Flute",
+        "长笛"
+      ],
+      [
+        "Saxophone",
+        "萨克斯"
+      ],
+      [
+        "Trumpet",
+        "小号"
+      ],
+      [
+        "Harp",
+        "竖琴"
+      ],
+      [
+        "Organ",
+        "风琴"
+      ],
+      [
+        "Xylophone",
+        "木琴"
+      ]
+    ],
+    "lyrics_prompts": [
+      {
+        "id": 1,
+        "category": "乐器/音色",
+        "en_name": "303 Acid Bassline",
+        "zh_name": "303酸贝斯线"
+      },
+      {
+        "id": 2,
+        "category": "乐器/音色",
+        "en_name": "808 beats",
+        "zh_name": "808鼓点"
+      },
+      {
+        "id": 3,
+        "category": "乐器/音色",
+        "en_name": "909 beats",
+        "zh_name": "909鼓点"
+      },
+      {
+        "id": 4,
+        "category": "人声",
+        "en_name": "A cappella",
+        "zh_name": "无伴奏"
+      },
+      {
+        "id": 5,
+        "category": "结构",
+        "en_name": "Acoustic break down",
+        "zh_name": "原声过渡"
+      },
+      {
+        "id": 6,
+        "category": "风格",
+        "en_name": "Acoustic version",
+        "zh_name": "原声版本"
+      },
+      {
+        "id": 7,
+        "category": "质感",
+        "en_name": "Acoustic textures",
+        "zh_name": "原声质感"
+      },
+      {
+        "id": 8,
+        "category": "乐器",
+        "en_name": "Acoustic-electric guitar",
+        "zh_name": "原声电吉他"
+      },
+      {
+        "id": 9,
+        "category": "结构",
+        "en_name": "Adagio intro",
+        "zh_name": "柔板前奏"
+      },
+      {
+        "id": 10,
+        "category": "乐器",
+        "en_name": "Additive synthesis",
+        "zh_name": "加法合成"
+      },
+      {
+        "id": 11,
+        "category": "结构",
+        "en_name": "African rhythms",
+        "zh_name": "非洲节奏"
+      },
+      {
+        "id": 12,
+        "category": "质感",
+        "en_name": "Airy textures",
+        "zh_name": "轻盈质感"
+      },
+      {
+        "id": 13,
+        "category": "风格",
+        "en_name": "Album closer",
+        "zh_name": "专辑结束曲"
+      },
+      {
+        "id": 14,
+        "category": "风格",
+        "en_name": "Album opener",
+        "zh_name": "专辑开场曲"
+      },
+      {
+        "id": 15,
+        "category": "结构",
+        "en_name": "Album version",
+        "zh_name": "专辑版本"
+      },
+      {
+        "id": 16,
+        "category": "人声",
+        "en_name": "Aleatoric vocals",
+        "zh_name": "偶然人声"
+      },
+      {
+        "id": 17,
+        "category": "风格",
+        "en_name": "Alternative version",
+        "zh_name": "另类版本"
+      },
+      {
+        "id": 18,
+        "category": "结构",
+        "en_name": "Ambient intro",
+        "zh_name": "氛围前奏"
+      },
+      {
+        "id": 19,
+        "category": "质感",
+        "en_name": "Ambient textures",
+        "zh_name": "氛围质感"
+      },
+      {
+        "id": 20,
+        "category": "风格",
+        "en_name": "Ambient version",
+        "zh_name": "氛围版本"
+      },
+      {
+        "id": 21,
+        "category": "和声",
+        "en_name": "Analog harmonies",
+        "zh_name": "模拟和声"
+      },
+      {
+        "id": 22,
+        "category": "乐器",
+        "en_name": "Analog synth",
+        "zh_name": "模拟合成器"
+      },
+      {
+        "id": 23,
+        "category": "质感",
+        "en_name": "Analog textures",
+        "zh_name": "模拟质感"
+      },
+      {
+        "id": 24,
+        "category": "风格",
+        "en_name": "Analog version",
+        "zh_name": "模拟版本"
+      },
+      {
+        "id": 25,
+        "category": "结构",
+        "en_name": "Anthem-like chorus",
+        "zh_name": "赞歌式副歌"
+      },
+      {
+        "id": 26,
+        "category": "技巧",
+        "en_name": "Anti-lyrics",
+        "zh_name": "反歌词"
+      },
+      {
+        "id": 27,
+        "category": "质感",
+        "en_name": "Arctic atmosphere",
+        "zh_name": "北极氛围"
+      },
+      {
+        "id": 28,
+        "category": "旋律",
+        "en_name": "Arpeggiated melody",
+        "zh_name": "琶音旋律"
+      },
+      {
+        "id": 29,
+        "category": "风格",
+        "en_name": "Atmospheric",
+        "zh_name": "大气"
+      },
+      {
+        "id": 30,
+        "category": "风格",
+        "en_name": "Atmospheric version",
+        "zh_name": "大气版本"
+      },
+      {
+        "id": 31,
+        "category": "情绪",
+        "en_name": "Auditory hallucination",
+        "zh_name": "听觉幻觉"
+      },
+      {
+        "id": 32,
+        "category": "风格",
+        "en_name": "Audio collage",
+        "zh_name": "音频拼贴"
+      },
+      {
+        "id": 33,
+        "category": "质感",
+        "en_name": "Authentic textures",
+        "zh_name": "真实质感"
+      },
+      {
+        "id": 34,
+        "category": "风格",
+        "en_name": "Auto-tuned vocals",
+        "zh_name": "自动调音人声"
+      },
+      {
+        "id": 35,
+        "category": "风格",
+        "en_name": "Avalanche of sound",
+        "zh_name": "声音雪崩"
+      },
+      {
+        "id": 36,
+        "category": "质感",
+        "en_name": "Awakening atmosphere",
+        "zh_name": "觉醒氛围"
+      },
+      {
+        "id": 37,
+        "category": "结构",
+        "en_name": "A-side",
+        "zh_name": "A面"
+      },
+      {
+        "id": 38,
+        "category": "人声",
+        "en_name": "Background vocals",
+        "zh_name": "背景人声"
+      },
+      {
+        "id": 39,
+        "category": "乐器",
+        "en_name": "Bagpipes",
+        "zh_name": "风笛"
+      },
+      {
+        "id": 40,
+        "category": "质感",
+        "en_name": "Barnyard atmosphere",
+        "zh_name": "谷仓氛围"
+      },
+      {
+        "id": 41,
+        "category": "结构",
+        "en_name": "Bass drop",
+        "zh_name": "贝斯Drop"
+      },
+      {
+        "id": 42,
+        "category": "风格",
+        "en_name": "Beat-driven",
+        "zh_name": "节拍驱动"
+      },
+      {
+        "id": 43,
+        "category": "风格",
+        "en_name": "Beatless",
+        "zh_name": "无节拍"
+      },
+      {
+        "id": 44,
+        "category": "结构",
+        "en_name": "Beat switch",
+        "zh_name": "节拍切换"
+      },
+      {
+        "id": 45,
+        "category": "风格",
+        "en_name": "Bedroom pop",
+        "zh_name": "卧室流行"
+      },
+      {
+        "id": 46,
+        "category": "风格",
+        "en_name": "Before the chorus",
+        "zh_name": "副歌前"
+      },
+      {
+        "id": 47,
+        "category": "结构",
+        "en_name": "Begins with a hook",
+        "zh_name": "以钩子开始"
+      },
+      {
+        "id": 48,
+        "category": "风格",
+        "en_name": "Big room",
+        "zh_name": "大房间"
+      },
+      {
+        "id": 49,
+        "category": "风格",
+        "en_name": "Binaural",
+        "zh_name": "双耳"
+      },
+      {
+        "id": 50,
+        "category": "人声",
+        "en_name": "Birdsong",
+        "zh_name": "鸟鸣"
+      },
+      {
+        "id": 51,
+        "category": "风格",
+        "en_name": "Bitcrushed",
+        "zh_name": "位压缩"
+      },
+      {
+        "id": 52,
+        "category": "风格",
+        "en_name": "Blues",
+        "zh_name": "布鲁斯"
+      },
+      {
+        "id": 53,
+        "category": "人声",
+        "en_name": "Breathy vocals",
+        "zh_name": "呼吸感人声"
+      },
+      {
+        "id": 54,
+        "category": "风格",
+        "en_name": "Breakbeat",
+        "zh_name": "碎拍"
+      },
+      {
+        "id": 55,
+        "category": "风格",
+        "en_name": "Bright",
+        "zh_name": "明亮"
+      },
+      {
+        "id": 56,
+        "category": "质感",
+        "en_name": "Bright and airy",
+        "zh_name": "明亮轻盈"
+      },
+      {
+        "id": 57,
+        "category": "风格",
+        "en_name": "Bright and poppy",
+        "zh_name": "明亮流行"
+      },
+      {
+        "id": 58,
+        "category": "风格",
+        "en_name": "Britpop",
+        "zh_name": "英伦流行"
+      },
+      {
+        "id": 59,
+        "category": "风格",
+        "en_name": "Broken chord",
+        "zh_name": "分解和弦"
+      },
+      {
+        "id": 60,
+        "category": "结构",
+        "en_name": "Build-up",
+        "zh_name": "累积"
+      },
+      {
+        "id": 61,
+        "category": "结构",
+        "en_name": "Build-up and drop",
+        "zh_name": "累积和Drop"
+      },
+      {
+        "id": 62,
+        "category": "风格",
+        "en_name": "Calm",
+        "zh_name": "平静"
+      },
+      {
+        "id": 63,
+        "category": "风格",
+        "en_name": "Calm and serene",
+        "zh_name": "平静宁静"
+      },
+      {
+        "id": 64,
+        "category": "风格",
+        "en_name": "Calm intro",
+        "zh_name": "平静前奏"
+      },
+      {
+        "id": 65,
+        "category": "风格",
+        "en_name": "Calm outro",
+        "zh_name": "平静结尾"
+      },
+      {
+        "id": 66,
+        "category": "乐器",
+        "en_name": "Cello",
+        "zh_name": "大提琴"
+      },
+      {
+        "id": 67,
+        "category": "风格",
+        "en_name": "Cinematic",
+        "zh_name": "电影感"
+      },
+      {
+        "id": 68,
+        "category": "风格",
+        "en_name": "Cinematic strings",
+        "zh_name": "电影弦乐"
+      },
+      {
+        "id": 69,
+        "category": "结构",
+        "en_name": "Clapping intro",
+        "zh_name": "鼓掌前奏"
+      },
+      {
+        "id": 70,
+        "category": "风格",
+        "en_name": "Clean production",
+        "zh_name": "干净制作"
+      },
+      {
+        "id": 71,
+        "category": "风格",
+        "en_name": "Clean vocals",
+        "zh_name": "干净人声"
+      },
+      {
+        "id": 72,
+        "category": "人声",
+        "en_name": "Clicking sounds",
+        "zh_name": "咔哒声"
+      },
+      {
+        "id": 73,
+        "category": "风格",
+        "en_name": "Club-friendly",
+        "zh_name": "俱乐部友好"
+      },
+      {
+        "id": 74,
+        "category": "风格",
+        "en_name": "Club-ready",
+        "zh_name": "俱乐部就绪"
+      },
+      {
+        "id": 75,
+        "category": "乐器",
+        "en_name": "Clavinet",
+        "zh_name": "电钢琴"
+      },
+      {
+        "id": 76,
+        "category": "质感",
+        "en_name": "Cold atmosphere",
+        "zh_name": "寒冷氛围"
+      },
+      {
+        "id": 77,
+        "category": "风格",
+        "en_name": "Compressed",
+        "zh_name": "压缩"
+      },
+      {
+        "id": 78,
+        "category": "风格",
+        "en_name": "Computer-generated",
+        "zh_name": "计算机生成"
+      },
+      {
+        "id": 79,
+        "category": "风格",
+        "en_name": "Confessional lyrics",
+        "zh_name": "忏悔式歌词"
+      },
+      {
+        "id": 80,
+        "category": "风格",
+        "en_name": "Cool and smooth",
+        "zh_name": "酷炫流畅"
+      },
+      {
+        "id": 81,
+        "category": "风格",
+        "en_name": "Cosmic",
+        "zh_name": "宇宙"
+      },
+      {
+        "id": 82,
+        "category": "质感",
+        "en_name": "Cosmic atmosphere",
+        "zh_name": "宇宙氛围"
+      },
+      {
+        "id": 83,
+        "category": "风格",
+        "en_name": "Country",
+        "zh_name": "乡村"
+      },
+      {
+        "id": 84,
+        "category": "风格",
+        "en_name": "Country-influenced",
+        "zh_name": "乡村影响"
+      },
+      {
+        "id": 85,
+        "category": "风格",
+        "en_name": "Crash cymbals",
+        "zh_name": "镲片"
+      },
+      {
+        "id": 86,
+        "category": "风格",
+        "en_name": "Creative",
+        "zh_name": "创意"
+      },
+      {
+        "id": 87,
+        "category": "风格",
+        "en_name": "Creative beat",
+        "zh_name": "创意节拍"
+      },
+      {
+        "id": 88,
+        "category": "风格",
+        "en_name": "Crescendo",
+        "zh_name": "渐强"
+      },
+      {
+        "id": 89,
+        "category": "风格",
+        "en_name": "Crisp",
+        "zh_name": "清脆"
+      },
+      {
+        "id": 90,
+        "category": "风格",
+        "en_name": "Crisp production",
+        "zh_name": "清脆制作"
+      },
+      {
+        "id": 91,
+        "category": "质感",
+        "en_name": "Crisp textures",
+        "zh_name": "清脆质感"
+      },
+      {
+        "id": 92,
+        "category": "结构",
+        "en_name": "Crowd noise",
+        "zh_name": "人群噪音"
+      },
+      {
+        "id": 93,
+        "category": "风格",
+        "en_name": "Crowd singing",
+        "zh_name": "人群合唱"
+      },
+      {
+        "id": 94,
+        "category": "人声",
+        "en_name": "Crying vocals",
+        "zh_name": "哭泣人声"
+      },
+      {
+        "id": 95,
+        "category": "风格",
+        "en_name": "Cultural",
+        "zh_name": "文化"
+      },
+      {
+        "id": 96,
+        "category": "质感",
+        "en_name": "Cultural atmosphere",
+        "zh_name": "文化氛围"
+      },
+      {
+        "id": 97,
+        "category": "风格",
+        "en_name": "Danceable",
+        "zh_name": "可舞动"
+      },
+      {
+        "id": 98,
+        "category": "风格",
+        "en_name": "Dancefloor",
+        "zh_name": "舞池"
+      },
+      {
+        "id": 99,
+        "category": "风格",
+        "en_name": "Dark",
+        "zh_name": "黑暗"
+      },
+      {
+        "id": 100,
+        "category": "风格",
+        "en_name": "Dark and moody",
+        "zh_name": "黑暗忧郁"
+      },
+      {
+        "id": 101,
+        "category": "风格",
+        "en_name": "Dark and mysterious",
+        "zh_name": "黑暗神秘"
+      },
+      {
+        "id": 102,
+        "category": "风格",
+        "en_name": "Dark atmosphere",
+        "zh_name": "黑暗氛围"
+      },
+      {
+        "id": 103,
+        "category": "质感",
+        "en_name": "Dark textures",
+        "zh_name": "黑暗质感"
+      },
+      {
+        "id": 104,
+        "category": "风格",
+        "en_name": "Dark undertones",
+        "zh_name": "黑暗底色"
+      },
+      {
+        "id": 105,
+        "category": "风格",
+        "en_name": "Dark version",
+        "zh_name": "黑暗版本"
+      },
+      {
+        "id": 106,
+        "category": "人声",
+        "en_name": "Deep voice",
+        "zh_name": "深沉嗓音"
+      },
+      {
+        "id": 107,
+        "category": "风格",
+        "en_name": "Deep house",
+        "zh_name": "深度浩室"
+      },
+      {
+        "id": 108,
+        "category": "风格",
+        "en_name": "Deep and atmospheric",
+        "zh_name": "深沉大气"
+      },
+      {
+        "id": 109,
+        "category": "风格",
+        "en_name": "Deep bass",
+        "zh_name": "深沉贝斯"
+      },
+      {
+        "id": 110,
+        "category": "风格",
+        "en_name": "Deep chords",
+        "zh_name": "深沉和弦"
+      },
+      {
+        "id": 111,
+        "category": "风格",
+        "en_name": "Deep groove",
+        "zh_name": "深沉律动"
+      },
+      {
+        "id": 112,
+        "category": "质感",
+        "en_name": "Deep textures",
+        "zh_name": "深沉质感"
+      },
+      {
+        "id": 113,
+        "category": "风格",
+        "en_name": "Deep and mysterious",
+        "zh_name": "深沉神秘"
+      },
+      {
+        "id": 114,
+        "category": "风格",
+        "en_name": "Deep and resonant",
+        "zh_name": "深沉共鸣"
+      },
+      {
+        "id": 115,
+        "category": "风格",
+        "en_name": "Delayed",
+        "zh_name": "延迟"
+      },
+      {
+        "id": 116,
+        "category": "风格",
+        "en_name": "Delicate",
+        "zh_name": "精致"
+      },
+      {
+        "id": 117,
+        "category": "风格",
+        "en_name": "Delicate and fragile",
+        "zh_name": "精致脆弱"
+      },
+      {
+        "id": 118,
+        "category": "风格",
+        "en_name": "Desolate",
+        "zh_name": "荒凉"
+      },
+      {
+        "id": 119,
+        "category": "质感",
+        "en_name": "Desolate atmosphere",
+        "zh_name": "荒凉氛围"
+      },
+      {
+        "id": 120,
+        "category": "人声",
+        "en_name": "Detuned vocals",
+        "zh_name": "失谐人声"
+      },
+      {
+        "id": 121,
+        "category": "风格",
+        "en_name": "Digital",
+        "zh_name": "数字"
+      },
+      {
+        "id": 122,
+        "category": "风格",
+        "en_name": "Dirty",
+        "zh_name": "肮脏"
+      },
+      {
+        "id": 123,
+        "category": "质感",
+        "en_name": "Dirty textures",
+        "zh_name": "肮脏质感"
+      },
+      {
+        "id": 124,
+        "category": "风格",
+        "en_name": "Disco",
+        "zh_name": "迪斯科"
+      },
+      {
+        "id": 125,
+        "category": "风格",
+        "en_name": "Disco-influenced",
+        "zh_name": "迪斯科影响"
+      },
+      {
+        "id": 126,
+        "category": "风格",
+        "en_name": "Distant",
+        "zh_name": "遥远"
+      },
+      {
+        "id": 127,
+        "category": "质感",
+        "en_name": "Distant atmosphere",
+        "zh_name": "遥远氛围"
+      },
+      {
+        "id": 128,
+        "category": "风格",
+        "en_name": "Distant vocals",
+        "zh_name": "遥远人声"
+      },
+      {
+        "id": 129,
+        "category": "风格",
+        "en_name": "Distorted",
+        "zh_name": "失真"
+      },
+      {
+        "id": 130,
+        "category": "风格",
+        "en_name": "Distorted bass",
+        "zh_name": "失真贝斯"
+      },
+      {
+        "id": 131,
+        "category": "质感",
+        "en_name": "Distorted textures",
+        "zh_name": "失真质感"
+      },
+      {
+        "id": 132,
+        "category": "风格",
+        "en_name": "Distorted vocals",
+        "zh_name": "失真人声"
+      },
+      {
+        "id": 133,
+        "category": "风格",
+        "en_name": "Diverse",
+        "zh_name": "多样"
+      },
+      {
+        "id": 134,
+        "category": "风格",
+        "en_name": "Diverse influences",
+        "zh_name": "多样影响"
+      },
+      {
+        "id": 135,
+        "category": "人声",
+        "en_name": "Double-tracked vocals",
+        "zh_name": "双轨人声"
+      },
+      {
+        "id": 136,
+        "category": "风格",
+        "en_name": "Dream pop",
+        "zh_name": "梦幻流行"
+      },
+      {
+        "id": 137,
+        "category": "风格",
+        "en_name": "Dreamy",
+        "zh_name": "梦幻"
+      },
+      {
+        "id": 138,
+        "category": "风格",
+        "en_name": "Dreamy and ethereal",
+        "zh_name": "梦幻空灵"
+      },
+      {
+        "id": 139,
+        "category": "风格",
+        "en_name": "Dreamy atmosphere",
+        "zh_name": "梦幻氛围"
+      },
+      {
+        "id": 140,
+        "category": "风格",
+        "en_name": "Dreamy textures",
+        "zh_name": "梦幻质感"
+      },
+      {
+        "id": 141,
+        "category": "风格",
+        "en_name": "Drifting",
+        "zh_name": "漂移"
+      },
+      {
+        "id": 142,
+        "category": "人声",
+        "en_name": "Drone",
+        "zh_name": "持续音"
+      },
+      {
+        "id": 143,
+        "category": "风格",
+        "en_name": "Drum and bass",
+        "zh_name": "鼓与贝斯"
+      },
+      {
+        "id": 144,
+        "category": "风格",
+        "en_name": "Drum fills",
+        "zh_name": "鼓填充"
+      },
+      {
+        "id": 145,
+        "category": "乐器",
+        "en_name": "Drums",
+        "zh_name": "鼓"
+      },
+      {
+        "id": 146,
+        "category": "风格",
+        "en_name": "Dub",
+        "zh_name": "回响贝斯"
+      },
+      {
+        "id": 147,
+        "category": "风格",
+        "en_name": "Dub-influenced",
+        "zh_name": "回响影响"
+      },
+      {
+        "id": 148,
+        "category": "风格",
+        "en_name": "Dubstep",
+        "zh_name": "回响贝斯"
+      },
+      {
+        "id": 149,
+        "category": "风格",
+        "en_name": "Dubstep-influenced",
+        "zh_name": "回响影响"
+      },
+      {
+        "id": 150,
+        "category": "风格",
+        "en_name": "Duet",
+        "zh_name": "二重奏"
+      },
+      {
+        "id": 151,
+        "category": "风格",
+        "en_name": "Dusty",
+        "zh_name": "尘土飞扬"
+      },
+      {
+        "id": 152,
+        "category": "质感",
+        "en_name": "Dusty textures",
+        "zh_name": "尘土质感"
+      },
+      {
+        "id": 153,
+        "category": "风格",
+        "en_name": "Dynamic",
+        "zh_name": "动态"
+      },
+      {
+        "id": 154,
+        "category": "风格",
+        "en_name": "Dynamic range",
+        "zh_name": "动态范围"
+      },
+      {
+        "id": 155,
+        "category": "风格",
+        "en_name": "Dynamic shifts",
+        "zh_name": "动态转换"
+      },
+      {
+        "id": 156,
+        "category": "风格",
+        "en_name": "Eccentric",
+        "zh_name": "古怪"
+      },
+      {
+        "id": 157,
+        "category": "风格",
+        "en_name": "Edgy",
+        "zh_name": "前卫"
+      },
+      {
+        "id": 158,
+        "category": "风格",
+        "en_name": "Emo",
+        "zh_name": "情绪"
+      },
+      {
+        "id": 159,
+        "category": "风格",
+        "en_name": "Emotional",
+        "zh_name": "情感"
+      },
+      {
+        "id": 160,
+        "category": "风格",
+        "en_name": "Emotional vocals",
+        "zh_name": "情感人声"
+      },
+      {
+        "id": 161,
+        "category": "风格",
+        "en_name": "Energetic",
+        "zh_name": "充满活力"
+      },
+      {
+        "id": 162,
+        "category": "风格",
+        "en_name": "Energetic beats",
+        "zh_name": "活力节拍"
+      },
+      {
+        "id": 163,
+        "category": "风格",
+        "en_name": "Energetic drums",
+        "zh_name": "活力鼓"
+      },
+      {
+        "id": 164,
+        "category": "风格",
+        "en_name": "Energetic and upbeat",
+        "zh_name": "活力欢快"
+      },
+      {
+        "id": 165,
+        "category": "风格",
+        "en_name": "Epic",
+        "zh_name": "史诗"
+      },
+      {
+        "id": 166,
+        "category": "风格",
+        "en_name": "Epic build-up",
+        "zh_name": "史诗累积"
+      },
+      {
+        "id": 167,
+        "category": "风格",
+        "en_name": "Epic crescendo",
+        "zh_name": "史诗渐强"
+      },
+      {
+        "id": 168,
+        "category": "风格",
+        "en_name": "Epic drop",
+        "zh_name": "史诗Drop"
+      },
+      {
+        "id": 169,
+        "category": "风格",
+        "en_name": "Epic strings",
+        "zh_name": "史诗弦乐"
+      },
+      {
+        "id": 170,
+        "category": "风格",
+        "en_name": "Ethereal",
+        "zh_name": "空灵"
+      },
+      {
+        "id": 171,
+        "category": "风格",
+        "en_name": "Ethereal and dreamy",
+        "zh_name": "空灵梦幻"
+      },
+      {
+        "id": 172,
+        "category": "风格",
+        "en_name": "Ethereal textures",
+        "zh_name": "空灵质感"
+      },
+      {
+        "id": 173,
+        "category": "风格",
+        "en_name": "Ethereal vocals",
+        "zh_name": "空灵人声"
+      },
+      {
+        "id": 174,
+        "category": "风格",
+        "en_name": "Experimental",
+        "zh_name": "实验"
+      },
+      {
+        "id": 175,
+        "category": "风格",
+        "en_name": "Experimental beats",
+        "zh_name": "实验节拍"
+      },
+      {
+        "id": 176,
+        "category": "风格",
+        "en_name": "Experimental textures",
+        "zh_name": "实验质感"
+      },
+      {
+        "id": 177,
+        "category": "风格",
+        "en_name": "Extended mix",
+        "zh_name": "扩展混音"
+      },
+      {
+        "id": 178,
+        "category": "风格",
+        "en_name": "Extended version",
+        "zh_name": "扩展版本"
+      },
+      {
+        "id": 179,
+        "category": "风格",
+        "en_name": "Euphoric",
+        "zh_name": "欣快"
+      },
+      {
+        "id": 180,
+        "category": "风格",
+        "en_name": "Euphoric and uplifting",
+        "zh_name": "欣快振奋"
+      },
+      {
+        "id": 181,
+        "category": "风格",
+        "en_name": "Euphoric build-up",
+        "zh_name": "欣快累积"
+      },
+      {
+        "id": 182,
+        "category": "风格",
+        "en_name": "Euphoric drop",
+        "zh_name": "欣快Drop"
+      },
+      {
+        "id": 183,
+        "category": "风格",
+        "en_name": "Euphoric trance",
+        "zh_name": "欣快迷幻"
+      },
+      {
+        "id": 184,
+        "category": "人声",
+        "en_name": "Falsetto",
+        "zh_name": "假声"
+      },
+      {
+        "id": 185,
+        "category": "风格",
+        "en_name": "Fancy",
+        "zh_name": "华丽"
+      },
+      {
+        "id": 186,
+        "category": "风格",
+        "en_name": "Fast",
+        "zh_name": "快速"
+      },
+      {
+        "id": 187,
+        "category": "风格",
+        "en_name": "Fast and energetic",
+        "zh_name": "快速活力"
+      },
+      {
+        "id": 188,
+        "category": "风格",
+        "en_name": "Fast-paced",
+        "zh_name": "快节奏"
+      },
+      {
+        "id": 189,
+        "category": "风格",
+        "en_name": "Feminine vocals",
+        "zh_name": "女性人声"
+      },
+      {
+        "id": 190,
+        "category": "风格",
+        "en_name": "Festive",
+        "zh_name": "节日"
+      },
+      {
+        "id": 191,
+        "category": "质感",
+        "en_name": "Festive atmosphere",
+        "zh_name": "节日氛围"
+      },
+      {
+        "id": 192,
+        "category": "风格",
+        "en_name": "Fierce",
+        "zh_name": "猛烈"
+      },
+      {
+        "id": 193,
+        "category": "风格",
+        "en_name": "Filter sweep",
+        "zh_name": "滤波器扫频"
+      },
+      {
+        "id": 194,
+        "category": "风格",
+        "en_name": "Filtered",
+        "zh_name": "滤波"
+      },
+      {
+        "id": 195,
+        "category": "风格",
+        "en_name": "Filtered bass",
+        "zh_name": "滤波贝斯"
+      },
+      {
+        "id": 196,
+        "category": "风格",
+        "en_name": "Filtered synths",
+        "zh_name": "滤波合成器"
+      },
+      {
+        "id": 197,
+        "category": "风格",
+        "en_name": "Fingerpicked",
+        "zh_name": "指弹"
+      },
+      {
+        "id": 198,
+        "category": "风格",
+        "en_name": "Fingerpicked guitar",
+        "zh_name": "指弹吉他"
+      }
+    ],
+    "structure_prompts": [
+      {
+        "id": 1,
+        "category": "技巧",
+        "en_name": "Ascending progression",
+        "zh_name": "上升进行"
+      },
+      {
+        "id": 2,
+        "category": "歌词",
+        "en_name": "Anticipatory lyrics",
+        "zh_name": "期待歌词"
+      },
+      {
+        "id": 3,
+        "category": "质感",
+        "en_name": "Atmospheric shift",
+        "zh_name": "氛围转换"
+      },
+      {
+        "id": 4,
+        "category": "和声",
+        "en_name": "Bridge modulation",
+        "zh_name": "桥段转调"
+      },
+      {
+        "id": 5,
+        "category": "和声",
+        "en_name": "Brightening harmonies",
+        "zh_name": "明亮和声"
+      },
+      {
+        "id": 6,
+        "category": "情绪",
+        "en_name": "Cathartic release",
+        "zh_name": "宣泄释放"
+      },
+      {
+        "id": 7,
+        "category": "结构",
+        "en_name": "Chord progression evolution",
+        "zh_name": "和弦进行演变"
+      },
+      {
+        "id": 8,
+        "category": "情感",
+        "en_name": "Complex emotional narrative",
+        "zh_name": "复杂情感叙事"
+      },
+      {
+        "id": 9,
+        "category": "叙事",
+        "en_name": "Compositional storytelling",
+        "zh_name": "作曲叙事"
+      },
+      {
+        "id": 10,
+        "category": "质感",
+        "en_name": "Crisp and clean",
+        "zh_name": "清脆干净"
+      },
+      {
+        "id": 11,
+        "category": "人声",
+        "en_name": "Dynamic vocal delivery",
+        "zh_name": "动态人声表达"
+      },
+      {
+        "id": 12,
+        "category": "张力",
+        "en_name": "Dynamic tension building",
+        "zh_name": "动态张力构建"
+      },
+      {
+        "id": 13,
+        "category": "对比",
+        "en_name": "Emotional contrast",
+        "zh_name": "情感对比"
+      },
+      {
+        "id": 14,
+        "category": "意象",
+        "en_name": "Evocative imagery",
+        "zh_name": "唤起意象"
+      },
+      {
+        "id": 15,
+        "category": "戏剧",
+        "en_name": "Expressive crescendo",
+        "zh_name": "表达性渐强"
+      },
+      {
+        "id": 16,
+        "category": "强度",
+        "en_name": "Gradual intensity increase",
+        "zh_name": "渐进强度增加"
+      },
+      {
+        "id": 17,
+        "category": "技巧",
+        "en_name": "Harmonic resolution",
+        "zh_name": "和声解决"
+      },
+      {
+        "id": 18,
+        "category": "解决",
+        "en_name": "Harmonic tension and release",
+        "zh_name": "和声张力与释放"
+      },
+      {
+        "id": 19,
+        "category": "主题",
+        "en_name": "Heroic theme",
+        "zh_name": "英雄主题"
+      },
+      {
+        "id": 20,
+        "category": "人声",
+        "en_name": "Hypnotic vocal loops",
+        "zh_name": "催眠人声循环"
+      },
+      {
+        "id": 21,
+        "category": "乐器",
+        "en_name": "Instrumental interplay",
+        "zh_name": "器乐交织"
+      },
+      {
+        "id": 22,
+        "category": "戏剧",
+        "en_name": "Introductory drama",
+        "zh_name": "开场戏剧性"
+      },
+      {
+        "id": 23,
+        "category": "氛围",
+        "en_name": "Layered ambient textures",
+        "zh_name": "分层氛围质感"
+      },
+      {
+        "id": 24,
+        "category": "叙事",
+        "en_name": "Lyrical journey",
+        "zh_name": "歌词旅程"
+      },
+      {
+        "id": 25,
+        "category": "对比",
+        "en_name": "Mellow vs energetic",
+        "zh_name": "柔和vs活力"
+      },
+      {
+        "id": 26,
+        "category": "流动",
+        "en_name": "Melodic fluidity",
+        "zh_name": "旋律流动性"
+      },
+      {
+        "id": 27,
+        "category": "和声",
+        "en_name": "Mode mixture",
+        "zh_name": "调式混合"
+      },
+      {
+        "id": 28,
+        "category": "张力",
+        "en_name": "Momentum-driven tension",
+        "zh_name": "动力驱动张力"
+      },
+      {
+        "id": 29,
+        "category": "流动",
+        "en_name": "Motivic development",
+        "zh_name": "动机发展"
+      },
+      {
+        "id": 30,
+        "category": "叙事",
+        "en_name": "Musical narrative arc",
+        "zh_name": "音乐叙事弧"
+      },
+      {
+        "id": 31,
+        "category": "对比",
+        "en_name": "Natural contrast",
+        "zh_name": "自然对比"
+      },
+      {
+        "id": 32,
+        "category": "意象",
+        "en_name": "Nature-inspired imagery",
+        "zh_name": "自然灵感意象"
+      },
+      {
+        "id": 33,
+        "category": "结构",
+        "en_name": "Non-linear structure",
+        "zh_name": "非线性结构"
+      },
+      {
+        "id": 34,
+        "category": "解决",
+        "en_name": "Organic resolution",
+        "zh_name": "有机解决"
+      },
+      {
+        "id": 35,
+        "category": "质感",
+        "en_name": "Organic textures",
+        "zh_name": "有机质感"
+      },
+      {
+        "id": 36,
+        "category": "技巧",
+        "en_name": "Orchestral layering",
+        "zh_name": "管弦乐分层"
+      },
+      {
+        "id": 37,
+        "category": "节奏",
+        "en_name": "Percussive emphasis",
+        "zh_name": "打击乐强调"
+      },
+      {
+        "id": 38,
+        "category": "情感",
+        "en_name": "Profound emotional depth",
+        "zh_name": "深刻情感深度"
+      },
+      {
+        "id": 39,
+        "category": "解决",
+        "en_name": "Progressive resolution",
+        "zh_name": "渐进解决"
+      },
+      {
+        "id": 40,
+        "category": "速度",
+        "en_name": "Pulsing tempo",
+        "zh_name": "脉动速度"
+      },
+      {
+        "id": 41,
+        "category": "强度",
+        "en_name": "Rising energy",
+        "zh_name": "上升能量"
+      },
+      {
+        "id": 42,
+        "category": "对比",
+        "en_name": "Rhythmic contrast",
+        "zh_name": "节奏对比"
+      },
+      {
+        "id": 43,
+        "category": "技巧",
+        "en_name": "Rhythmic complexity",
+        "zh_name": "节奏复杂性"
+      },
+      {
+        "id": 44,
+        "category": "重复",
+        "en_name": "Rhythmic repetition",
+        "zh_name": "节奏重复"
+      },
+      {
+        "id": 45,
+        "category": "结构",
+        "en_name": "Sectional contrast",
+        "zh_name": "段落对比"
+      },
+      {
+        "id": 46,
+        "category": "质感",
+        "en_name": "Smooth and polished",
+        "zh_name": "平滑抛光"
+      },
+      {
+        "id": 47,
+        "category": "戏剧",
+        "en_name": "Sudden dynamic shifts",
+        "zh_name": "突然动态转换"
+      },
+      {
+        "id": 48,
+        "category": "张力",
+        "en_name": "Suspense building",
+        "zh_name": "悬念构建"
+      },
+      {
+        "id": 49,
+        "category": "旋律",
+        "en_name": "Symphonic melody",
+        "zh_name": "交响旋律"
+      },
+      {
+        "id": 50,
+        "category": "叙事",
+        "en_name": "Thematic coherence",
+        "zh_name": "主题连贯性"
+      },
+      {
+        "id": 51,
+        "category": "风格",
+        "en_name": "Thematic development",
+        "zh_name": "主题发展"
+      },
+      {
+        "id": 52,
+        "category": "氛围",
+        "en_name": "Through-composed atmosphere",
+        "zh_name": "贯穿作曲氛围"
+      },
+      {
+        "id": 53,
+        "category": "技巧",
+        "en_name": "Timbral evolution",
+        "zh_name": "音色演变"
+      },
+      {
+        "id": 54,
+        "category": "张力",
+        "en_name": "Tension and release cycle",
+        "zh_name": "张力释放循环"
+      },
+      {
+        "id": 55,
+        "category": "技巧",
+        "en_name": "Texture layering",
+        "zh_name": "质感分层"
+      },
+      {
+        "id": 56,
+        "category": "解决",
+        "en_name": "Unexpected resolution",
+        "zh_name": "意外解决"
+      },
+      {
+        "id": 57,
+        "category": "人声",
+        "en_name": "Vocal texture integration",
+        "zh_name": "人声质感整合"
+      },
+      {
+        "id": 58,
+        "category": "情感",
+        "en_name": "Vulnerable emotion",
+        "zh_name": "脆弱情感"
+      },
+      {
+        "id": 59,
+        "category": "张力",
+        "en_name": "Wall of sound tension",
+        "zh_name": "音墙张力"
+      },
+      {
+        "id": 60,
+        "category": "空间",
+        "en_name": "Wide stereo field",
+        "zh_name": "宽广立体声场"
+      },
+      {
+        "id": 61,
+        "category": "强度",
+        "en_name": "Building intensity",
+        "zh_name": "构建强度"
+      },
+      {
+        "id": 62,
+        "category": "解决",
+        "en_name": "Cathartic climax",
+        "zh_name": "宣泄高潮"
+      },
+      {
+        "id": 63,
+        "category": "情感",
+        "en_name": "Climactic emotion",
+        "zh_name": "高潮情感"
+      },
+      {
+        "id": 64,
+        "category": "叙事",
+        "en_name": "Cliffhanger ending",
+        "zh_name": "悬念结局"
+      },
+      {
+        "id": 65,
+        "category": "节奏",
+        "en_name": "Complex rhythmic interplay",
+        "zh_name": "复杂节奏交织"
+      },
+      {
+        "id": 66,
+        "category": "和声",
+        "en_name": "Counterpoint",
+        "zh_name": "对位"
+      },
+      {
+        "id": 67,
+        "category": "张力",
+        "en_name": "Cumulative tension",
+        "zh_name": "累积张力"
+      },
+      {
+        "id": 68,
+        "category": "动态",
+        "en_name": "Dynamic contrast",
+        "zh_name": "动态对比"
+      },
+      {
+        "id": 69,
+        "category": "强度",
+        "en_name": "Dynamic intensity",
+        "zh_name": "动态强度"
+      },
+      {
+        "id": 70,
+        "category": "技巧",
+        "en_name": "Extended techniques",
+        "zh_name": "扩展技巧"
+      },
+      {
+        "id": 71,
+        "category": "人声",
+        "en_name": "Harmonic vocals",
+        "zh_name": "和声人声"
+      },
+      {
+        "id": 72,
+        "category": "叙事",
+        "en_name": "Linear narrative",
+        "zh_name": "线性叙事"
+      },
+      {
+        "id": 73,
+        "category": "张力",
+        "en_name": "Linear tension",
+        "zh_name": "线性张力"
+      },
+      {
+        "id": 74,
+        "category": "解决",
+        "en_name": "Resolution",
+        "zh_name": "解决"
+      }
+    ],
+    "dance_prompts": [
+      {
+        "id": 1,
+        "en_name": "Punchy 4/4 beats",
+        "zh_name": "有力的4/4拍子",
+        "en_desc": "electro bass catchy synths pop vocals bright pads club-ready mixes energetic drops",
+        "zh_desc": "电子贝斯，朗朗上口的合成器，流行人声，明亮的铺底，俱乐部混音，充满能量的Drop",
+        "categories": [
+          "Bass"
+        ]
+      },
+      {
+        "id": 2,
+        "en_name": "Driving bassline",
+        "zh_name": "驱动贝斯线",
+        "en_desc": "synth bass rolling hi-hats pumping sidechain club banger",
+        "zh_desc": "合成器贝斯，滚动的踩镲，抽吸侧链，俱乐部炸场",
+        "categories": [
+          "House"
+        ]
+      },
+      {
+        "id": 3,
+        "en_name": "Energetic drops",
+        "zh_name": "充满活力的Drop",
+        "en_desc": "buildup anticipation powerful kick drum hands in the air",
+        "zh_desc": "累积期待，强力底鼓，举手的时刻",
+        "categories": [
+          "House",
+          "Trance"
+        ]
+      },
+      {
+        "id": 4,
+        "en_name": "Groovy rhythm",
+        "zh_name": "律动节奏",
+        "en_desc": "syncopated drums funky bass infectious groove dancefloor filler",
+        "zh_desc": "切分鼓点，放克贝斯，感染力强的律动，舞池填充",
+        "categories": [
+          "House",
+          "Funk"
+        ]
+      },
+      {
+        "id": 5,
+        "en_name": "Melodic hooks",
+        "zh_name": "旋律钩子",
+        "en_desc": "catchy melody synth leads earworm hooks radio-ready",
+        "zh_desc": "朗朗上口的旋律，合成器主音，耳虫钩子，广播就绪",
+        "categories": [
+          "House",
+          "Trance"
+        ]
+      },
+      {
+        "id": 6,
+        "en_name": "Deep house warmth",
+        "zh_name": "深度浩室温暖",
+        "en_desc": "warm pads soulful vocals deep bass smooth transitions",
+        "zh_desc": "温暖的铺底，灵魂人声，深沉贝斯，平滑过渡",
+        "categories": [
+          "House"
+        ]
+      },
+      {
+        "id": 7,
+        "en_name": "Tech house drive",
+        "zh_name": "科技浩室驱动",
+        "en_desc": "minimal elements driving beat hypnotic groove tech percussion",
+        "zh_desc": "极简元素，驱动节拍，催眠律动，科技打击乐",
+        "categories": [
+          "House",
+          "Techno"
+        ]
+      },
+      {
+        "id": 8,
+        "en_name": "Progressive build",
+        "zh_name": "渐进累积",
+        "en_desc": "slow buildup layered elements emotional journey epic drop",
+        "zh_desc": "缓慢累积，分层元素，情感旅程，史诗Drop",
+        "categories": [
+          "House",
+          "Trance",
+          "Progressive"
+        ]
+      },
+      {
+        "id": 9,
+        "en_name": "Vocal chops",
+        "zh_name": "人声切片",
+        "en_desc": "pitched vocals chopped samples rhythmic vocal elements",
+        "zh_desc": "音调人声，切碎采样，节奏人声元素",
+        "categories": [
+          "House",
+          "Future Bass"
+        ]
+      },
+      {
+        "id": 10,
+        "en_name": "Acid squelch",
+        "zh_name": "酸舞音色",
+        "en_desc": "303 acid bass squelchy resonant filter old school",
+        "zh_desc": "303酸贝斯，挤压音色，共鸣滤波器，老派风格",
+        "categories": [
+          "House",
+          "Techno",
+          "Acid"
+        ]
+      },
+      {
+        "id": 11,
+        "en_name": "Minimal groove",
+        "zh_name": "极简律动",
+        "en_desc": "stripped back subtle elements hypnotic repetition deep vibe",
+        "zh_desc": "精简，微妙元素，催眠重复，深沉氛围",
+        "categories": [
+          "Techno",
+          "Minimal"
+        ]
+      },
+      {
+        "id": 12,
+        "en_name": "Dark atmosphere",
+        "zh_name": "黑暗氛围",
+        "en_desc": "ominous pads dark textures moody atmosphere underground",
+        "zh_desc": "不祥铺底，黑暗质感，忧郁氛围，地下风格",
+        "categories": [
+          "Techno",
+          "Dark"
+        ]
+      },
+      {
+        "id": 13,
+        "en_name": "Industrial percussion",
+        "zh_name": "工业打击乐",
+        "en_desc": "metallic sounds mechanical rhythms harsh textures industrial",
+        "zh_desc": "金属声音，机械节奏，粗糙质感，工业风格",
+        "categories": [
+          "Techno",
+          "Industrial"
+        ]
+      },
+      {
+        "id": 14,
+        "en_name": "Hypnotic sequences",
+        "zh_name": "催眠序列",
+        "en_desc": "repeating arpeggios evolving patterns trance-like state",
+        "zh_desc": "重复琶音，演变模式，迷幻状态",
+        "categories": [
+          "Techno",
+          "Trance"
+        ]
+      },
+      {
+        "id": 15,
+        "en_name": "Peak time energy",
+        "zh_name": "高峰时刻能量",
+        "en_desc": "maximum energy driving beat festival anthem hands up",
+        "zh_desc": "最大能量，驱动节拍，节日赞歌，举手时刻",
+        "categories": [
+          "House",
+          "Techno",
+          "Trance"
+        ]
+      },
+      {
+        "id": 16,
+        "en_name": "Trance lead",
+        "zh_name": "迷幻主音",
+        "en_desc": "supersaw lead uplifting melody euphoric breakdown",
+        "zh_desc": "超锯主音，振奋旋律，欣快过渡",
+        "categories": [
+          "Trance"
+        ]
+      },
+      {
+        "id": 17,
+        "en_name": "Euphoric breakdown",
+        "zh_name": "欣快过渡",
+        "en_desc": "emotional buildup beautiful pads anticipation climax",
+        "zh_desc": "情感累积，美丽铺底，期待高潮",
+        "categories": [
+          "Trance"
+        ]
+      },
+      {
+        "id": 18,
+        "en_name": "Goa trance",
+        "zh_name": "果阿迷幻",
+        "en_desc": "psychedelic elements Eastern influences complex patterns",
+        "zh_desc": "迷幻元素，东方影响，复杂模式",
+        "categories": [
+          "Trance",
+          "Psytrance"
+        ]
+      },
+      {
+        "id": 19,
+        "en_name": "Tech trance",
+        "zh_name": "科技迷幻",
+        "en_desc": "techno elements trance melodies driving energy",
+        "zh_desc": "科技元素，迷幻旋律，驱动能量",
+        "categories": [
+          "Trance",
+          "Techno"
+        ]
+      },
+      {
+        "id": 20,
+        "en_name": "Hard trance",
+        "zh_name": "硬派迷幻",
+        "en_desc": "hard kick aggressive leads high energy pounding",
+        "zh_desc": "硬底鼓，激进主音，高能量，重击",
+        "categories": [
+          "Trance",
+          "Hard"
+        ]
+      },
+      {
+        "id": 21,
+        "en_name": "Trap beats",
+        "zh_name": "陷阱节拍",
+        "en_desc": "808 bass hi-hat rolls trap snares Atlanta style",
+        "zh_desc": "808贝斯，踩镲滚动，陷阱军鼓，亚特兰大风格",
+        "categories": [
+          "Trap"
+        ]
+      },
+      {
+        "id": 22,
+        "en_name": "Heavy 808s",
+        "zh_name": "重808",
+        "en_desc": "sub-bass 808 rattling trunk powerful low end",
+        "zh_desc": "超低贝斯808，震动后备箱，强力低频",
+        "categories": [
+          "Trap",
+          "Bass"
+        ]
+      },
+      {
+        "id": 23,
+        "en_name": "Hi-hat rolls",
+        "zh_name": "踩镲滚动",
+        "en_desc": "rapid hi-hat patterns triplet rolls rhythmic complexity",
+        "zh_desc": "快速踩镲模式，三连音滚动，节奏复杂性",
+        "categories": [
+          "Trap"
+        ]
+      },
+      {
+        "id": 24,
+        "en_name": "Trap melodies",
+        "zh_name": "陷阱旋律",
+        "en_desc": "dark synth leads minor keys haunting melodies",
+        "zh_desc": "黑暗合成器主音，小调，萦绕旋律",
+        "categories": [
+          "Trap"
+        ]
+      },
+      {
+        "id": 25,
+        "en_name": "Snare rolls",
+        "zh_name": "军鼓滚动",
+        "en_desc": "snare buildups tension rolls dramatic transitions",
+        "zh_desc": "军鼓累积，张力滚动，戏剧性过渡",
+        "categories": [
+          "Trap"
+        ]
+      },
+      {
+        "id": 26,
+        "en_name": "Future bass",
+        "zh_name": "未来贝斯",
+        "en_desc": "synthetic bass growls metallic sounds future sound",
+        "zh_desc": "合成器贝斯咆哮，金属声音，未来音色",
+        "categories": [
+          "Bass",
+          "Future Bass"
+        ]
+      },
+      {
+        "id": 27,
+        "en_name": "Dubstep wobble",
+        "zh_name": "回响摆动",
+        "en_desc": "wobble bass aggressive drops heavy metal influence",
+        "zh_desc": "摆动贝斯，激进Drop，重金属影响",
+        "categories": [
+          "Bass",
+          "Dubstep"
+        ]
+      },
+      {
+        "id": 28,
+        "en_name": "Glitch hop",
+        "zh_name": "故障跳跃",
+        "en_desc": "glitchy edits mid-tempo swing funky beats",
+        "zh_desc": "故障编辑，中速摇摆，放克节拍",
+        "categories": [
+          "Bass",
+          "Glitch"
+        ]
+      },
+      {
+        "id": 29,
+        "en_name": "Complextro",
+        "zh_name": "复杂电子",
+        "en_desc": "complex bass patterns intricate edits heavy sound design",
+        "zh_desc": "复杂贝斯模式，精细编辑，重音色设计",
+        "categories": [
+          "Bass",
+          "Complextro"
+        ]
+      },
+      {
+        "id": 30,
+        "en_name": "Electro house",
+        "zh_name": "电子浩室",
+        "en_desc": "electro bass dirty saws energetic drops big room",
+        "zh_desc": "电子贝斯，肮脏锯齿波，活力Drop，大房间",
+        "categories": [
+          "House",
+          "Electro"
+        ]
+      },
+      {
+        "id": 31,
+        "en_name": "Big room anthem",
+        "zh_name": "大房间赞歌",
+        "en_desc": "festival-ready big drops hands in the air massive",
+        "zh_desc": "节日就绪，大Drop，举手时刻，大规模",
+        "categories": [
+          "House",
+          "Big Room"
+        ]
+      },
+      {
+        "id": 32,
+        "en_name": "Melodic techno",
+        "zh_name": "旋律科技",
+        "en_desc": "melodic elements techno atmosphere hypnotic beauty",
+        "zh_desc": "旋律元素，科技氛围，催眠美感",
+        "categories": [
+          "Techno",
+          "Melodic"
+        ]
+      },
+      {
+        "id": 33,
+        "en_name": "Ambient techno",
+        "zh_name": "氛围科技",
+        "en_desc": "ambient textures subtle beats deep atmosphere",
+        "zh_desc": "氛围质感，微妙节拍，深沉氛围",
+        "categories": [
+          "Techno",
+          "Ambient"
+        ]
+      },
+      {
+        "id": 34,
+        "en_name": "Acid techno",
+        "zh_name": "酸科技",
+        "en_desc": "303 acid squelch driving beat industrial elements",
+        "zh_desc": "303酸挤压，驱动节拍，工业元素",
+        "categories": [
+          "Techno",
+          "Acid"
+        ]
+      },
+      {
+        "id": 35,
+        "en_name": "Hard techno",
+        "zh_name": "硬派科技",
+        "en_desc": "hard kick pounding beats aggressive energy",
+        "zh_desc": "硬底鼓，重击节拍，激进能量",
+        "categories": [
+          "Techno",
+          "Hard"
+        ]
+      },
+      {
+        "id": 36,
+        "en_name": "Drum and bass",
+        "zh_name": "鼓与贝斯",
+        "en_desc": "fast breaks heavy bass rapid tempo jungle influence",
+        "zh_desc": "快速碎拍，重贝斯，快速速度，丛林影响",
+        "categories": [
+          "Drum & Bass"
+        ]
+      },
+      {
+        "id": 37,
+        "en_name": "Liquid DnB",
+        "zh_name": "液体DnB",
+        "en_desc": "smooth flowing melodic atmospheric soulful",
+        "zh_desc": "平滑流动，旋律，氛围，灵魂",
+        "categories": [
+          "Drum & Bass",
+          "Liquid"
+        ]
+      },
+      {
+        "id": 38,
+        "en_name": "Neurofunk",
+        "zh_name": "神经放克",
+        "en_desc": "complex bass science neurotic energy dark atmosphere",
+        "zh_desc": "复杂贝斯科学，神经质能量，黑暗氛围",
+        "categories": [
+          "Drum & Bass",
+          "Neurofunk"
+        ]
+      },
+      {
+        "id": 39,
+        "en_name": "Jump up",
+        "zh_name": "跳跃",
+        "en_desc": "energetic bouncy bass fun vibes party anthem",
+        "zh_desc": "活力弹跳贝斯，有趣氛围，派对赞歌",
+        "categories": [
+          "Drum & Bass"
+        ]
+      },
+      {
+        "id": 40,
+        "en_name": "Atmospheric DnB",
+        "zh_name": "氛围DnB",
+        "en_desc": "pads atmospheric elements deep vibe immersive",
+        "zh_desc": "铺底，氛围元素，深沉氛围，沉浸式",
+        "categories": [
+          "Drum & Bass",
+          "Atmospheric"
+        ]
+      },
+      {
+        "id": 41,
+        "en_name": "Breakbeat",
+        "zh_name": "碎拍",
+        "en_desc": "broken beats syncopated rhythms funk influences",
+        "zh_desc": "碎拍节拍，切分节奏，放克影响",
+        "categories": [
+          "Breakbeat",
+          "Funk"
+        ]
+      },
+      {
+        "id": 42,
+        "en_name": "Nu disco",
+        "zh_name": "新迪斯科",
+        "en_desc": "disco elements modern production funky bass",
+        "zh_desc": "迪斯科元素，现代制作，放克贝斯",
+        "categories": [
+          "Disco",
+          "Nu Disco"
+        ]
+      },
+      {
+        "id": 43,
+        "en_name": "French touch",
+        "zh_name": "法式触感",
+        "en_desc": "filtered disco loops French house Daft Punk style",
+        "zh_desc": "滤波迪斯科循环，法式浩室，Daft Punk风格",
+        "categories": [
+          "House",
+          "French Touch"
+        ]
+      },
+      {
+        "id": 44,
+        "en_name": "Ghetto house",
+        "zh_name": "贫民窟浩室",
+        "en_desc": "raw energy booty beats Chicago influence",
+        "zh_desc": "原始能量， booty节拍，芝加哥影响",
+        "categories": [
+          "House",
+          "Ghetto"
+        ]
+      },
+      {
+        "id": 45,
+        "en_name": "Speed garage",
+        "zh_name": "速度车库",
+        "en_desc": "speeded up garage vocals bouncy bass UK sound",
+        "zh_desc": "加速车库人声，弹跳贝斯，英国声音",
+        "categories": [
+          "Garage",
+          "Speed Garage"
+        ]
+      },
+      {
+        "id": 46,
+        "en_name": "Bassline",
+        "zh_name": "贝斯线",
+        "en_desc": "driving bassline bouncy beats UK bass scene",
+        "zh_desc": "驱动贝斯线，弹跳节拍，英国贝斯场景",
+        "categories": [
+          "Bass",
+          "Bassline"
+        ]
+      },
+      {
+        "id": 47,
+        "en_name": "Hardstyle",
+        "zh_name": "硬派",
+        "en_desc": "hard kick reverse bass pitched up energy",
+        "zh_desc": "硬底鼓，反向贝斯，音调提升，能量",
+        "categories": [
+          "Hardstyle",
+          "Hard"
+        ]
+      },
+      {
+        "id": 48,
+        "en_name": "Jumpstyle",
+        "zh_name": "跳跃风格",
+        "en_desc": "bouncy kicks jumping dance hard energy",
+        "zh_desc": "弹跳底鼓，跳跃舞蹈，硬能量",
+        "categories": [
+          "Hardstyle",
+          "Jump"
+        ]
+      },
+      {
+        "id": 49,
+        "en_name": "Gabber",
+        "zh_name": "加布",
+        "en_desc": "extremely fast kick distorted bass hardcore",
+        "zh_desc": "极快底鼓，失真贝斯，硬核",
+        "categories": [
+          "Hardcore",
+          "Gabber"
+        ]
+      },
+      {
+        "id": 50,
+        "en_name": "Happy hardcore",
+        "zh_name": "快乐硬核",
+        "en_desc": "fast tempo happy melodies piano riffs",
+        "zh_desc": "快速速度，快乐旋律，钢琴即兴",
+        "categories": [
+          "Hardcore",
+          "Happy Hardcore"
+        ]
+      },
+      {
+        "id": 51,
+        "en_name": "Freeform",
+        "zh_name": "自由形式",
+        "en_desc": "uplifting melodies complex rhythms hardcore",
+        "zh_desc": "振奋旋律，复杂节奏，硬核",
+        "categories": [
+          "Hardcore",
+          "Freeform"
+        ]
+      },
+      {
+        "id": 52,
+        "en_name": "Drumstep",
+        "zh_name": "鼓步",
+        "en_desc": "half tempo DnB heavy bass trap influence",
+        "zh_desc": "半速DnB，重贝斯，陷阱影响",
+        "categories": [
+          "Drum & Bass",
+          "Trap"
+        ]
+      },
+      {
+        "id": 53,
+        "en_name": "Chillstep",
+        "zh_name": "放松步",
+        "en_desc": "chill atmosphere melodic elements dubstep bass",
+        "zh_desc": "放松氛围，旋律元素，回响贝斯",
+        "categories": [
+          "Dubstep",
+          "Chill"
+        ]
+      },
+      {
+        "id": 54,
+        "en_name": "Future garage",
+        "zh_name": "未来车库",
+        "en_desc": "garage elements future production atmospheric",
+        "zh_desc": "车库元素，未来制作，氛围",
+        "categories": [
+          "Garage",
+          "Future"
+        ]
+      },
+      {
+        "id": 55,
+        "en_name": "Deep house",
+        "zh_name": "深度浩室",
+        "en_desc": "deep bass soulful vocals warm atmosphere",
+        "zh_desc": "深沉贝斯，灵魂人声，温暖氛围",
+        "categories": [
+          "House",
+          "Deep"
+        ]
+      },
+      {
+        "id": 56,
+        "en_name": "Soulful house",
+        "zh_name": "灵魂浩室",
+        "en_desc": "soul samples gospel vocals emotional depth",
+        "zh_desc": "灵魂采样，福音人声，情感深度",
+        "categories": [
+          "House",
+          "Soulful"
+        ]
+      },
+      {
+        "id": 57,
+        "en_name": "Afro house",
+        "zh_name": "非洲浩室",
+        "en_desc": "African rhythms percussion tribal elements",
+        "zh_desc": "非洲节奏，打击乐，部落元素",
+        "categories": [
+          "House",
+          "African"
+        ]
+      },
+      {
+        "id": 58,
+        "en_name": "Latin house",
+        "zh_name": "拉丁浩室",
+        "en_desc": "Latin rhythms percussion salsa influence",
+        "zh_desc": "拉丁节奏，打击乐，萨尔萨影响",
+        "categories": [
+          "House",
+          "Latin"
+        ]
+      },
+      {
+        "id": 59,
+        "en_name": "Jackin house",
+        "zh_name": "摇摆浩室",
+        "en_desc": "jackin groove funky elements Chicago style",
+        "zh_desc": "摇摆律动，放克元素，芝加哥风格",
+        "categories": [
+          "House",
+          "Jackin"
+        ]
+      },
+      {
+        "id": 60,
+        "en_name": "Tech house",
+        "zh_name": "科技浩室",
+        "en_desc": "techno elements house groove stripped back",
+        "zh_desc": "科技元素，浩室律动，精简",
+        "categories": [
+          "House",
+          "Techno"
+        ]
+      },
+      {
+        "id": 61,
+        "en_name": "Funky house",
+        "zh_name": "放克浩室",
+        "en_desc": "funky bass disco elements upbeat vibe",
+        "zh_desc": "放克贝斯，迪斯科元素，欢快氛围",
+        "categories": [
+          "House",
+          "Funky"
+        ]
+      },
+      {
+        "id": 62,
+        "en_name": "Vocal house",
+        "zh_name": "人声浩室",
+        "en_desc": "vocal samples soulful hooks catchy lyrics",
+        "zh_desc": "人声采样，灵魂钩子，朗朗上口歌词",
+        "categories": [
+          "House",
+          "Vocal"
+        ]
+      },
+      {
+        "id": 63,
+        "en_name": "Tribal house",
+        "zh_name": "部落浩室",
+        "en_desc": "tribal drums percussion primal energy",
+        "zh_desc": "部落鼓，打击乐，原始能量",
+        "categories": [
+          "House",
+          "Tribal"
+        ]
+      },
+      {
+        "id": 64,
+        "en_name": "Progressive house",
+        "zh_name": "渐进浩室",
+        "en_desc": "progressive build emotional journey melodic",
+        "zh_desc": "渐进累积，情感旅程，旋律",
+        "categories": [
+          "House",
+          "Progressive"
+        ]
+      },
+      {
+        "id": 65,
+        "en_name": "Electro swing",
+        "zh_name": "电子摇摆",
+        "en_desc": "swing rhythm electro beats vintage samples",
+        "zh_desc": "摇摆节奏，电子节拍，复古采样",
+        "categories": [
+          "Electro",
+          "Swing"
+        ]
+      },
+      {
+        "id": 66,
+        "en_name": "Moombahton",
+        "zh_name": "莫巴顿",
+        "en_desc": "reggaeton tempo house beats tropical vibes",
+        "zh_desc": "雷鬼顿速度，浩室节拍，热带氛围",
+        "categories": [
+          "Moombahton",
+          "Tropical"
+        ]
+      },
+      {
+        "id": 67,
+        "en_name": "Future bounce",
+        "zh_name": "未来弹跳",
+        "en_desc": "bouncy bass future house upbeat energy",
+        "zh_desc": "弹跳贝斯，未来浩室，欢快能量",
+        "categories": [
+          "Future House",
+          "Bounce"
+        ]
+      },
+      {
+        "id": 68,
+        "en_name": "Slap house",
+        "zh_name": "拍击浩室",
+        "en_desc": "slap bass house beat commercial appeal",
+        "zh_desc": "拍击贝斯，浩室节拍，商业吸引力",
+        "categories": [
+          "House",
+          "Slap"
+        ]
+      },
+      {
+        "id": 69,
+        "en_name": "Brazilian bass",
+        "zh_name": "巴西贝斯",
+        "en_desc": "Brazilian rhythms bass-heavy energetic",
+        "zh_desc": "巴西节奏，重贝斯，活力",
+        "categories": [
+          "Bass",
+          "Brazilian"
+        ]
+      },
+      {
+        "id": 70,
+        "en_name": "Twerk",
+        "zh_name": "扭动",
+        "en_desc": "twerk rhythms trap beats party energy",
+        "zh_desc": "扭动节奏，陷阱节拍，派对能量",
+        "categories": [
+          "Trap",
+          "Twerk"
+        ]
+      },
+      {
+        "id": 71,
+        "en_name": "Hybrid trap",
+        "zh_name": "混合陷阱",
+        "en_desc": "trap elements other genres fusion styles",
+        "zh_desc": "陷阱元素，其他流派，融合风格",
+        "categories": [
+          "Trap",
+          "Hybrid"
+        ]
+      },
+      {
+        "id": 72,
+        "en_name": "Phonk",
+        "zh_name": "芬克",
+        "en_desc": "memphis trap slowed reverb dark atmosphere",
+        "zh_desc": "孟菲斯陷阱，慢速混响，黑暗氛围",
+        "categories": [
+          "Trap",
+          "Phonk"
+        ]
+      },
+      {
+        "id": 73,
+        "en_name": "Drill",
+        "zh_name": "钻头",
+        "en_desc": "dark 808s sliding bass UK drill influence",
+        "zh_desc": "黑暗808，滑动贝斯，英国钻头影响",
+        "categories": [
+          "Trap",
+          "Drill"
+        ]
+      },
+      {
+        "id": 74,
+        "en_name": "Reggaeton",
+        "zh_name": "雷鬼顿",
+        "en_desc": "Latin rhythms dembow beat reggae influence",
+        "zh_desc": "拉丁节奏， dembow节拍，雷鬼影响",
+        "categories": [
+          "Reggaeton",
+          "Latin"
+        ]
+      },
+      {
+        "id": 75,
+        "en_name": "Dembow",
+        "zh_name": "德姆鲍",
+        "en_desc": "repetitive rhythm reggaeton foundation",
+        "zh_desc": "重复节奏，雷鬼顿基础",
+        "categories": [
+          "Reggaeton",
+          "Dembow"
+        ]
+      },
+      {
+        "id": 76,
+        "en_name": "Moombahcore",
+        "zh_name": "莫巴核心",
+        "en_desc": "moombahton hardcore elements aggressive",
+        "zh_desc": "莫巴顿硬核元素，激进",
+        "categories": [
+          "Moombahton",
+          "Hardcore"
+        ]
+      },
+      {
+        "id": 77,
+        "en_name": "Complextro",
+        "zh_name": "复杂电子",
+        "en_desc": "complex bass patterns intricate edits sound design",
+        "zh_desc": "复杂贝斯模式，精细编辑，音色设计",
+        "categories": [
+          "Complextro",
+          "Electro"
+        ]
+      },
+      {
+        "id": 78,
+        "en_name": "Riddim",
+        "zh_name": "节奏",
+        "en_desc": "repetitive bass patterns dubstep influence",
+        "zh_desc": "重复贝斯模式，回响贝斯影响",
+        "categories": [
+          "Dubstep",
+          "Riddim"
+        ]
+      },
+      {
+        "id": 79,
+        "en_name": "Brostep",
+        "zh_name": "兄弟步",
+        "en_desc": "American dubstep heavy drops metal influence",
+        "zh_desc": "美国回响贝斯，重Drop，金属影响",
+        "categories": [
+          "Dubstep",
+          "Brostep"
+        ]
+      },
+      {
+        "id": 80,
+        "en_name": "Chillout",
+        "zh_name": "放松",
+        "en_desc": "relaxed atmosphere chill beats ambient elements",
+        "zh_desc": "放松氛围，平静节拍，氛围元素",
+        "categories": [
+          "Chillout",
+          "Ambient"
+        ]
+      },
+      {
+        "id": 81,
+        "en_name": "Downtempo",
+        "zh_name": "慢速",
+        "en_desc": "slow tempo atmospheric elements trip hop",
+        "zh_desc": "慢速，氛围元素，迷幻嘻哈",
+        "categories": [
+          "Downtempo",
+          "Trip Hop"
+        ]
+      },
+      {
+        "id": 82,
+        "en_name": "Lo-fi",
+        "zh_name": "低保真",
+        "en_desc": "lo-fi production nostalgic vibe chill beats",
+        "zh_desc": "低保真制作，怀旧氛围，平静节拍",
+        "categories": [
+          "Lo-fi",
+          "Chill"
+        ]
+      },
+      {
+        "id": 83,
+        "en_name": "Synthwave",
+        "zh_name": "合成波",
+        "en_desc": "80s retro synth neon vibes driving bass",
+        "zh_desc": "80年代复古合成器，霓虹氛围，驱动贝斯",
+        "categories": [
+          "Synthwave",
+          "Retrowave"
+        ]
+      },
+      {
+        "id": 84,
+        "en_name": "Retrowave",
+        "zh_name": "复古波",
+        "en_desc": "retro 80s aesthetic cinematic vibes",
+        "zh_desc": "复古80年代美学，电影感氛围",
+        "categories": [
+          "Synthwave",
+          "Retrowave"
+        ]
+      },
+      {
+        "id": 85,
+        "en_name": "Outrun",
+        "zh_name": "逃亡",
+        "en_desc": "driving synthwave cinematic action vibes",
+        "zh_desc": "驱动合成波，电影动作氛围",
+        "categories": [
+          "Synthwave",
+          "Outrun"
+        ]
+      },
+      {
+        "id": 86,
+        "en_name": "Vaporwave",
+        "zh_name": "蒸汽波",
+        "en_desc": "slowed samples aesthetic vibes surreal atmosphere",
+        "zh_desc": "慢速采样，美学氛围，超现实氛围",
+        "categories": [
+          "Vaporwave",
+          "Aesthetic"
+        ]
+      },
+      {
+        "id": 87,
+        "en_name": "Future funk",
+        "zh_name": "未来放克",
+        "en_desc": "funky bass disco samples upbeat energy",
+        "zh_desc": "放克贝斯，迪斯科采样，欢快能量",
+        "categories": [
+          "Funk",
+          "Future"
+        ]
+      },
+      {
+        "id": 88,
+        "en_name": "Nu funk",
+        "zh_name": "新放克",
+        "en_desc": "modern funk production electronic elements",
+        "zh_desc": "现代放克制作，电子元素",
+        "categories": [
+          "Funk",
+          "Nu Funk"
+        ]
+      },
+      {
+        "id": 89,
+        "en_name": "G-funk",
+        "zh_name": "G放克",
+        "en_desc": "West Coast funk synth bass gangsta rap",
+        "zh_desc": "西海岸放克，合成器贝斯，黑帮说唱",
+        "categories": [
+          "Hip Hop",
+          "G-Funk"
+        ]
+      },
+      {
+        "id": 90,
+        "en_name": "Boom bap",
+        "zh_name": "轰邦",
+        "en_desc": "boom bap drums lyrical hip hop 90s style",
+        "zh_desc": "轰邦鼓，歌词说唱，90年代风格",
+        "categories": [
+          "Hip Hop",
+          "Boom Bap"
+        ]
+      },
+      {
+        "id": 91,
+        "en_name": "Trap soul",
+        "zh_name": "陷阱灵魂",
+        "en_desc": "trap beats soul samples emotional rap",
+        "zh_desc": "陷阱节拍，灵魂采样，情感说唱",
+        "categories": [
+          "Trap",
+          "Soul"
+        ]
+      },
+      {
+        "id": 92,
+        "en_name": "Cloud rap",
+        "zh_name": "云端说唱",
+        "en_desc": "ethereal production dreamy beats abstract lyrics",
+        "zh_desc": "空灵制作，梦幻节拍，抽象歌词",
+        "categories": [
+          "Hip Hop",
+          "Cloud Rap"
+        ]
+      },
+      {
+        "id": 93,
+        "en_name": "Grime",
+        "zh_name": "格里姆",
+        "en_desc": "UK garage influence dark beats rapid flows",
+        "zh_desc": "英国车库影响，黑暗节拍，快速流动",
+        "categories": [
+          "Grime",
+          "UK"
+        ]
+      },
+      {
+        "id": 94,
+        "en_name": "Drill",
+        "zh_name": "钻头",
+        "en_desc": "dark trap beats sliding bass aggressive flows",
+        "zh_desc": "黑暗陷阱节拍，滑动贝斯，激进流动",
+        "categories": [
+          "Hip Hop",
+          "Drill"
+        ]
+      },
+      {
+        "id": 95,
+        "en_name": "Jersey club",
+        "zh_name": "泽西俱乐部",
+        "en_desc": "fast club beats chopped samples bounce",
+        "zh_desc": "快速俱乐部节拍，切碎采样，弹跳",
+        "categories": [
+          "Club",
+          "Jersey"
+        ]
+      },
+      {
+        "id": 96,
+        "en_name": "Baltimore club",
+        "zh_name": "巴尔的摩俱乐部",
+        "en_desc": "breakbeat samples call and response party",
+        "zh_desc": "碎拍采样，呼应，派对",
+        "categories": [
+          "Club",
+          "Baltimore"
+        ]
+      },
+      {
+        "id": 97,
+        "en_name": "Footwork",
+        "zh_name": "脚步",
+        "en_desc": "hyper fast juke samples complex rhythms",
+        "zh_desc": "超快juke采样，复杂节奏",
+        "categories": [
+          "Footwork",
+          "Juke"
+        ]
+      },
+      {
+        "id": 98,
+        "en_name": "Juke",
+        "zh_name": "朱克",
+        "en_desc": "fast tempo booty bass Chicago origin",
+        "zh_desc": "快速速度， booty贝斯，芝加哥起源",
+        "categories": [
+          "Footwork",
+          "Juke"
+        ]
+      },
+      {
+        "id": 99,
+        "en_name": "UK bass",
+        "zh_name": "英国贝斯",
+        "en_desc": "UK garage dubstep breakbeat fusion",
+        "zh_desc": "英国车库，回响贝斯，碎拍融合",
+        "categories": [
+          "Bass",
+          "UK"
+        ]
+      },
+      {
+        "id": 100,
+        "en_name": "Bass music",
+        "zh_name": "贝斯音乐",
+        "en_desc": "focus on bass heavy sounds sub frequencies",
+        "zh_desc": "专注于重贝斯声音，超低频率",
+        "categories": [
+          "Bass",
+          "Bass Music"
+        ]
+      },
+      {
+        "id": 101,
+        "en_name": "Leftfield bass",
+        "zh_name": "左翼贝斯",
+        "en_desc": "experimental bass unconventional sounds",
+        "zh_desc": "实验贝斯，非常规声音",
+        "categories": [
+          "Bass",
+          "Experimental"
+        ]
+      },
+      {
+        "id": 102,
+        "en_name": "Acid",
+        "zh_name": "酸",
+        "en_desc": "303 acid sounds squelchy resonant",
+        "zh_desc": "303酸声音，挤压，共鸣",
+        "categories": [
+          "Acid",
+          "Techno",
+          "House"
+        ]
+      },
+      {
+        "id": 103,
+        "en_name": "Techno",
+        "zh_name": "科技舞曲",
+        "en_desc": "minimal elements driving beat hypnotic",
+        "zh_desc": "极简元素，驱动节拍，催眠",
+        "categories": [
+          "Techno"
+        ]
+      },
+      {
+        "id": 104,
+        "en_name": "House",
+        "zh_name": "浩室",
+        "en_desc": "4/4 beat syncopated elements club vibe",
+        "zh_desc": "4/4节拍，切分元素，俱乐部氛围",
+        "categories": [
+          "House"
+        ]
+      },
+      {
+        "id": 105,
+        "en_name": "Trance",
+        "zh_name": "迷幻舞曲",
+        "en_desc": "uplifting melodies euphoric energy emotional",
+        "zh_desc": "振奋旋律，欣快能量，情感",
+        "categories": [
+          "Trance"
+        ]
+      },
+      {
+        "id": 106,
+        "en_name": "Trap",
+        "zh_name": "陷阱",
+        "en_desc": "808 bass trap beats dark vibes",
+        "zh_desc": "808贝斯，陷阱节拍，黑暗氛围",
+        "categories": [
+          "Trap"
+        ]
+      },
+      {
+        "id": 107,
+        "en_name": "Bass",
+        "zh_name": "贝斯",
+        "en_desc": "heavy bass focus sub frequencies powerful",
+        "zh_desc": "重贝斯专注，超低频率，强力",
+        "categories": [
+          "Bass"
+        ]
+      },
+      {
+        "id": 108,
+        "en_name": "Drum and bass",
+        "zh_name": "鼓与贝斯",
+        "en_desc": "fast breaks heavy bass jungle energy",
+        "zh_desc": "快速碎拍，重贝斯，丛林能量",
+        "categories": [
+          "Drum & Bass"
+        ]
+      }
+    ]
+  }
+}

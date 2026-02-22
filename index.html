@@ -27,17 +27,6 @@
             overflow: hidden;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                border-radius: 0;
-                box-shadow: none;
-            }
-
-            body {
-                padding: 0;
-            }
-        }
-
         .header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -57,20 +46,6 @@
             opacity: 0.9;
         }
 
-        @media (max-width: 768px) {
-            .header {
-                padding: 20px 15px;
-            }
-
-            .header h1 {
-                font-size: 1.8em;
-            }
-
-            .header p {
-                font-size: 0.95em;
-            }
-        }
-
         .main-content {
             display: flex;
             gap: 30px;
@@ -87,26 +62,6 @@
             flex-shrink: 0;
         }
 
-        @media (max-width: 1024px) {
-            .main-content {
-                flex-direction: column;
-                padding: 20px;
-                gap: 20px;
-            }
-
-            .right-panel {
-                width: 100%;
-            }
-
-            .left-panel {
-                order: 2;
-            }
-
-            .right-panel {
-                order: 1;
-            }
-        }
-
         .tabs {
             display: flex;
             gap: 5px;
@@ -114,33 +69,22 @@
             background: #f5f5f5;
             padding: 5px;
             border-radius: 12px;
+            flex-wrap: wrap;
         }
 
         .tab {
             flex: 1;
-            padding: 15px 20px;
+            min-width: 100px;
+            padding: 10px 8px;
             background: transparent;
             border: none;
             cursor: pointer;
-            font-size: 15px;
+            font-size: 11px;
             font-weight: 600;
             color: #666;
             border-radius: 8px;
             transition: all 0.3s ease;
-        }
-
-        @media (max-width: 768px) {
-            .tabs {
-                flex-wrap: wrap;
-                gap: 8px;
-            }
-
-            .tab {
-                flex: 1 1 45%;
-                min-width: 120px;
-                padding: 12px 15px;
-                font-size: 13px;
-            }
+            white-space: nowrap;
         }
 
         .tab:hover {
@@ -167,49 +111,43 @@
 
         .control-section {
             background: white;
-            padding: 20px;
+            padding: 12px 15px;
             border-radius: 12px;
             margin-bottom: 20px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+
+        .control-group {
+            flex: 1;
+            min-width: 180px;
         }
 
         .control-section label {
             display: block;
             font-weight: 600;
             color: #333;
-            margin-bottom: 10px;
-            font-size: 14px;
+            margin-bottom: 8px;
+            font-size: 11px;
+            white-space: nowrap;
         }
 
-        .select-box {
+        .select-box, .search-box {
             width: 100%;
-            padding: 12px 15px;
+            padding: 8px 10px;
             border: 2px solid #e0e0e0;
             border-radius: 8px;
-            font-size: 14px;
+            font-size: 11px;
             color: #333;
             background: white;
             cursor: pointer;
             transition: all 0.3s ease;
         }
 
-        .select-box:focus {
-            outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-        }
-
-        .search-box {
-            width: 100%;
-            padding: 12px 15px;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            font-size: 14px;
-            margin-top: 15px;
-            transition: all 0.3s ease;
-        }
-
-        .search-box:focus {
+        .select-box:focus, .search-box:focus {
             outline: none;
             border-color: #667eea;
             box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
@@ -217,20 +155,11 @@
 
         .tags-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 12px;
-            max-height: 400px;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+            max-height: 450px;
             overflow-y: auto;
             padding: 10px;
-        }
-
-        @media (max-width: 768px) {
-            .tags-container {
-                grid-template-columns: 1fr;
-                max-height: 300px;
-                gap: 8px;
-                padding: 8px;
-            }
         }
 
         .tags-container::-webkit-scrollbar {
@@ -251,32 +180,12 @@
             background: white;
             border: 2px solid #e0e0e0;
             border-radius: 10px;
-            padding: 12px 15px;
+            padding: 10px;
             cursor: pointer;
             transition: all 0.3s ease;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 10px;
-        }
-
-        @media (max-width: 768px) {
-            .tag-item {
-                padding: 10px 12px;
-                gap: 8px;
-            }
-
-            .tag-checkbox {
-                width: 18px;
-                height: 18px;
-            }
-
-            .tag-en {
-                font-size: 13px;
-            }
-
-            .tag-zh {
-                font-size: 11px;
-            }
         }
 
         .tag-item:hover {
@@ -292,8 +201,8 @@
         }
 
         .tag-checkbox {
-            width: 20px;
-            height: 20px;
+            width: 16px;
+            height: 16px;
             border: 2px solid #ccc;
             border-radius: 4px;
             display: flex;
@@ -301,6 +210,7 @@
             justify-content: center;
             transition: all 0.3s ease;
             flex-shrink: 0;
+            margin-top: 1px;
         }
 
         .tag-item.selected .tag-checkbox {
@@ -312,7 +222,7 @@
             content: '✓';
             color: #667eea;
             font-weight: bold;
-            font-size: 14px;
+            font-size: 12px;
             display: none;
         }
 
@@ -327,155 +237,77 @@
 
         .tag-en {
             font-weight: 600;
-            font-size: 14px;
+            font-size: 11px;
             margin-bottom: 2px;
+            line-height: 1.2;
         }
 
         .tag-zh {
-            font-size: 12px;
+            font-size: 10px;
             opacity: 0.8;
+            line-height: 1.2;
         }
 
         .tag-item.selected .tag-zh {
             opacity: 0.9;
         }
 
+        .tag-desc {
+            font-size: 10px;
+            opacity: 0.7;
+            margin-top: 4px;
+            line-height: 1.3;
+        }
+
         .output-section {
             background: white;
             border-radius: 15px;
-            padding: 25px;
+            padding: 20px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
         }
 
-        @media (max-width: 768px) {
-            .output-section {
-                padding: 20px 15px;
-                border-radius: 12px;
-            }
-        }
-
         .section-title {
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 700;
             color: #333;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
             border-bottom: 2px solid #f0f0f0;
+            white-space: nowrap;
         }
 
-        @media (max-width: 768px) {
-            .section-title {
-                font-size: 16px;
-                margin-bottom: 12px;
-                padding-bottom: 8px;
-            }
-        }
-
-        .selection-display {
+        .selection-display, .prompt-output {
             background: #f8f9fa;
             border-radius: 10px;
-            padding: 15px;
-            min-height: 150px;
-            max-height: 200px;
+            padding: 12px;
+            min-height: 100px;
+            max-height: 180px;
             overflow-y: auto;
-            margin-bottom: 20px;
-            font-size: 14px;
-            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 12px;
+            line-height: 1.6;
             color: #555;
         }
 
-        @media (max-width: 768px) {
-            .selection-display {
-                padding: 12px;
-                min-height: 120px;
-                max-height: 180px;
-                font-size: 13px;
-                line-height: 1.6;
-            }
-        }
-
-        .selection-display::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .selection-display::-webkit-scrollbar-track {
-            background: #f1f1f1;
-            border-radius: 3px;
-        }
-
-        .selection-display::-webkit-scrollbar-thumb {
-            background: #c1c1c1;
-            border-radius: 3px;
-        }
-
         .prompt-output {
-            background: #f8f9fa;
-            border-radius: 10px;
-            padding: 15px;
-            min-height: 120px;
-            max-height: 150px;
-            overflow-y: auto;
-            margin-bottom: 20px;
-            font-size: 15px;
-            line-height: 1.8;
-            color: #333;
             font-weight: 500;
-        }
-
-        @media (max-width: 768px) {
-            .prompt-output {
-                padding: 12px;
-                min-height: 100px;
-                max-height: 130px;
-                font-size: 14px;
-                line-height: 1.6;
-            }
-        }
-
-        .prompt-output::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .prompt-output::-webkit-scrollbar-track {
-            background: #f1f1f1;
-            border-radius: 3px;
-        }
-
-        .prompt-output::-webkit-scrollbar-thumb {
-            background: #c1c1c1;
-            border-radius: 3px;
+            color: #333;
         }
 
         .button-group {
             display: flex;
-            gap: 10px;
-        }
-
-        @media (max-width: 768px) {
-            .button-group {
-                flex-direction: column;
-                gap: 8px;
-            }
-
-            .btn {
-                padding: 12px 16px;
-                font-size: 14px;
-            }
+            gap: 8px;
         }
 
         .btn {
             flex: 1;
-            padding: 14px 20px;
+            padding: 10px 12px;
             border: none;
             border-radius: 10px;
-            font-size: 15px;
+            font-size: 12px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
         }
 
         .btn-generate {
@@ -503,7 +335,42 @@
             text-align: center;
             padding: 40px;
             color: #999;
-            font-size: 16px;
+            font-size: 14px;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-top: 15px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .pagination button {
+            padding: 6px 12px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+
+        .pagination button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .pagination button:not(:disabled):hover {
+            background: #5568d3;
+        }
+
+        .pagination-info {
+            font-size: 11px;
+            color: #666;
         }
 
         @media (max-width: 1024px) {
@@ -517,21 +384,26 @@
         }
 
         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2em;
+            .tabs {
+                gap: 5px;
             }
 
-            .main-content {
-                padding: 20px;
-                gap: 20px;
+            .tab {
+                font-size: 11px;
+                padding: 10px 8px;
+                min-width: 80px;
+            }
+
+            .control-section {
+                flex-direction: column;
+            }
+
+            .control-group {
+                width: 100%;
             }
 
             .tags-container {
                 grid-template-columns: 1fr;
-            }
-
-            .button-group {
-                flex-direction: column;
             }
         }
     </style>
@@ -550,93 +422,112 @@
                     <button class="tab" data-tab="tempo">Tempo 节奏</button>
                     <button class="tab" data-tab="style">Style 描述</button>
                     <button class="tab" data-tab="instrument">Instruments 乐器</button>
+                    <button class="tab" data-tab="bonus">Bonus 附加</button>
+                    <button class="tab" data-tab="structure">Structure 结构</button>
+                    <button class="tab" data-tab="dance">Dance 舞曲</button>
                 </div>
 
                 <div class="tab-content active" id="genre-content">
                     <div class="control-section">
-                        <label>选择字母</label>
-                        <select class="select-box" id="genre-letter">
-                            <option value="A">A</option>
-                            <option value="B">B</option>
-                            <option value="C">C</option>
-                            <option value="D">D</option>
-                            <option value="E">E</option>
-                            <option value="F">F</option>
-                            <option value="G">G</option>
-                            <option value="H">H</option>
-                            <option value="I">I</option>
-                            <option value="J">J</option>
-                            <option value="K">K</option>
-                            <option value="L">L</option>
-                            <option value="M">M</option>
-                            <option value="N">N</option>
-                            <option value="O">O</option>
-                            <option value="P">P</option>
-                            <option value="R">R</option>
-                            <option value="S">S</option>
-                            <option value="T">T</option>
-                            <option value="V">V</option>
-                            <option value="W">W</option>
-                        </select>
-                        <input type="text" class="search-box" id="genre-search" placeholder="搜索风格（支持中英文）...">
+                        <div class="control-group">
+                            <label>Select Letter 选择字母</label>
+                            <select class="select-box" id="genre-letter"></select>
+                        </div>
+                        <div class="control-group">
+                            <label>搜索</label>
+                            <input type="text" class="search-box" id="genre-search" placeholder="Search genre / 搜索风格（支持中英文）...">
+                        </div>
                     </div>
                     <div class="tags-container" id="genre-tags"></div>
                 </div>
 
                 <div class="tab-content" id="tempo-content">
                     <div class="control-section">
-                        <label>选择速度</label>
-                        <select class="select-box" id="tempo-category">
-                            <option value="Very Slow">Very Slow</option>
-                            <option value="Slow">Slow</option>
-                            <option value="Walking Pace">Walking Pace</option>
-                            <option value="Moderate">Moderate</option>
-                            <option value="Fast">Fast</option>
-                            <option value="Very Fast">Very Fast</option>
-                            <option value="Additional">Additional</option>
-                        </select>
+                        <div class="control-group">
+                            <label>Select Speed 选择速度</label>
+                            <select class="select-box" id="tempo-category"></select>
+                        </div>
                     </div>
                     <div class="tags-container" id="tempo-tags"></div>
                 </div>
 
                 <div class="tab-content" id="style-content">
                     <div class="control-section">
-                        <label>选择类别</label>
-                        <select class="select-box" id="style-category">
-                            <option value="Mood/Atmosphere">Mood/Atmosphere</option>
-                            <option value="Texture/Sound">Texture/Sound</option>
-                            <option value="Rhythm/Groove">Rhythm/Groove</option>
-                            <option value="Vocal Style">Vocal Style</option>
-                            <option value="Production Quality">Production Quality</option>
-                            <option value="Instrumentation">Instrumentation</option>
-                        </select>
+                        <div class="control-group">
+                            <label>Select Category 选择类别</label>
+                            <select class="select-box" id="style-category"></select>
+                        </div>
                     </div>
                     <div class="tags-container" id="style-tags"></div>
                 </div>
 
                 <div class="tab-content" id="instrument-content">
+                    <div class="control-section">
+                        <div class="control-group">
+                            <label>Search Instruments 搜索乐器</label>
+                                                    <input type="text" class="search-box" id="instrument-search" placeholder="Search instruments (支持中英文)...">                        </div>
+                    </div>
                     <div class="tags-container" id="instrument-tags"></div>
+                </div>
+
+                <div class="tab-content" id="bonus-content">
+                    <div class="control-section">
+                        <div class="control-group">
+                            <label>分类</label>
+                            <select class="select-box" id="bonus-category"></select>
+                        </div>
+                        <div class="control-group">
+                            <label>搜索</label>
+                            <input type="text" class="search-box" id="bonus-search" placeholder="Search prompts / 搜索提示词（支持中英文）...">
+                        </div>
+                    </div>
+                    <div class="tags-container" id="bonus-tags"></div>
+                    <div class="pagination" id="bonus-pagination"></div>
+                </div>
+
+                <div class="tab-content" id="structure-content">
+                    <div class="control-section">
+                        <div class="control-group">
+                            <label>分类</label>
+                            <select class="select-box" id="structure-category"></select>
+                        </div>
+                        <div class="control-group">
+                            <label>搜索</label>
+                            <input type="text" class="search-box" id="structure-search" placeholder="Search prompts / 搜索提示词（支持中英文）...">
+                        </div>
+                    </div>
+                    <div class="tags-container" id="structure-tags"></div>
+                    <div class="pagination" id="structure-pagination"></div>
+                </div>
+
+                <div class="tab-content" id="dance-content">
+                    <div class="control-section">
+                        <div class="control-group">
+                            <label>分类</label>
+                            <select class="select-box" id="dance-category"></select>
+                        </div>
+                        <div class="control-group">
+                            <label>搜索</label>
+                            <input type="text" class="search-box" id="dance-search" placeholder="Search prompts / 搜索提示词（支持中英文）...">
+                        </div>
+                    </div>
+                    <div class="tags-container" id="dance-tags"></div>
+                    <div class="pagination" id="dance-pagination"></div>
                 </div>
             </div>
 
             <div class="right-panel">
                 <div class="output-section">
-                    <div class="section-title">当前选择</div>
+<div class="section-title">Current Selection 当前选择</div>
                     <div class="selection-display" id="selection-display"></div>
 
-                    <div class="section-title">生成的提示词</div>
+                    <div class="section-title">Generated Prompt 生成的提示词</div>
                     <div class="prompt-output" id="prompt-output"></div>
 
                     <div class="button-group">
-                        <button class="btn btn-generate" onclick="generatePrompt()">
-                            ✨ 生成提示词
-                        </button>
-                        <button class="btn btn-copy" onclick="copyPrompt()">
-                            📋 复制
-                        </button>
-                        <button class="btn btn-clear" onclick="clearAll()">
-                            🗑️ 清空
-                        </button>
+                        <button class="btn btn-generate" onclick="generatePrompt()">✨ Generate Prompt 生成提示词</button>
+                        <button class="btn btn-copy" onclick="copyPrompt()">📋 Copy 复制</button>
+                        <button class="btn btn-clear" onclick="clearAll()">🗑️ Clear 清空</button>
                     </div>
                 </div>
             </div>
@@ -644,319 +535,59 @@
     </div>
 
     <script>
-        // 数据定义
-        const GENRE_TAGS = {
-            "A": [
-                ["Acapella", "无伴奏合唱"],
-                ["Acid Jazz", "酸爵士"],
-                ["Acid Rock", "酸摇滚"],
-                ["Acoustic", "原声"],
-                ["Adult Contemporary", "成人当代"],
-                ["Afrobeat", "非洲节拍"],
-                ["Ambient", "氛围音乐"],
-                ["Americana", "美国民谣"],
-                ["Arabian", "阿拉伯风格"],
-                ["Atmospheric", "大气氛围"],
-                ["Avant-garde", "前卫"],
-            ],
-            "B": [
-                ["Background", "背景音乐"],
-                ["Banger", "炸场歌曲"],
-                ["Bass", "贝斯"],
-                ["Big Band", "大乐团"],
-                ["Black Metal", "黑金属"],
-                ["Blues", "蓝调"],
-                ["Bossa Nova", "波萨诺瓦"],
-                ["Broadway", "百老汇"],
-            ],
-            "C": [
-                ["Celtic", "凯尔特"],
-                ["Chillhop", "放松嘻哈"],
-                ["Chillout", "放松"],
-                ["Chiptune", "芯片音乐"],
-                ["Cinematic", "电影感"],
-                ["Classic Rock", "经典摇滚"],
-                ["Classical", "古典"],
-                ["Club", "俱乐部"],
-                ["Cool Jazz", "酷爵士"],
-                ["Country", "乡村"],
-            ],
-            "D": [
-                ["Dance", "舞曲"],
-                ["Dark", "暗黑"],
-                ["Dark Ambient", "暗黑氛围"],
-                ["Deep House", "深邃浩室"],
-                ["Deep Techno", "深邃科技"],
-                ["Disco", "迪斯科"],
-                ["Dubstep", "回响贝斯"],
-                ["Downtempo", "慢节奏"],
-                ["Dream Pop", "梦幻流行"],
-                ["Drum and Bass", "鼓与贝斯"],
-            ],
-            "E": [
-                ["EDM", "电子舞曲"],
-                ["Electro", "电子"],
-                ["Electro Swing", "电子摇摆"],
-                ["Electronic", "电子"],
-                ["Electropop", "电子流行"],
-                ["Emo", "情绪摇滚"],
-                ["Epic", "史诗"],
-                ["Ethereal", "空灵"],
-                ["Experimental", "实验"],
-            ],
-            "F": [
-                ["Folk", "民谣"],
-                ["Funk", "放克"],
-                ["Future Bass", "未来贝斯"],
-                ["Future House", "未来浩室"],
-            ],
-            "G": [
-                ["Glam Rock", "华丽摇滚"],
-                ["Glitch", "故障"],
-                ["Goa Trance", "果阿迷幻"],
-                ["Gospel", "福音"],
-                ["Grunge", "垃圾摇滚"],
-            ],
-            "H": [
-                ["Hard Rock", "硬摇滚"],
-                ["Hardcore", "硬核"],
-                ["Heavy Metal", "重金属"],
-                ["Hip Hop", "嘻哈"],
-                ["House", "浩室"],
-                ["Hyperpop", "超流行"],
-            ],
-            "I": [
-                ["IDM", "智能舞曲"],
-                ["Indie", "独立"],
-                ["Indie Pop", "独立流行"],
-                ["Indie Rock", "独立摇滚"],
-                ["Industrial", "工业"],
-                ["Instrumental", "器乐"],
-            ],
-            "J": [
-                ["Jazz", "爵士"],
-                ["Jazz Fusion", "爵士融合"],
-                ["J-Pop", "日本流行"],
-            ],
-            "K": [
-                ["K-Pop", "韩国流行"],
-            ],
-            "L": [
-                ["Latin", "拉丁"],
-                ["Lo-fi", "低保真"],
-                ["Lounge", "休闲"],
-                ["Lullaby", "摇篮曲"],
-            ],
-            "M": [
-                ["Mariachi", "墨西哥流浪"],
-                ["Melodic", "旋律性"],
-                ["Metal", "金属"],
-                ["Minimal", "极简"],
-                ["Modern Classical", "现代古典"],
-                ["Motown", "摩城"],
-                ["Movie Soundtrack", "电影原声"],
-            ],
-            "N": [
-                ["New Age", "新世纪"],
-                ["New Wave", "新浪潮"],
-                ["Noise", "噪音"],
-                ["Nu Disco", "新迪斯科"],
-                ["Nu Metal", "新金属"],
-            ],
-            "O": [
-                ["Opera", "歌剧"],
-                ["Orchestral", "管弦乐"],
-            ],
-            "P": [
-                ["Pop", "流行"],
-                ["Pop Rock", "流行摇滚"],
-                ["Post-Rock", "后摇"],
-                ["Power Metal", "力量金属"],
-                ["Progressive", "前卫"],
-                ["Psychedelic", "迷幻"],
-                ["Punk", "朋克"],
-            ],
-            "R": [
-                ["R&B", "节奏蓝调"],
-                ["Rap", "说唱"],
-                ["Reggae", "雷鬼"],
-                ["Reggaeton", "雷鬼顿"],
-                ["Rock", "摇滚"],
-                ["Romantic", "浪漫"],
-            ],
-            "S": [
-                ["Salsa", "萨尔萨"],
-                ["Samba", "桑巴"],
-                ["Ska", "斯卡"],
-                ["Smooth Jazz", "平滑爵士"],
-                ["Soft Rock", "软摇滚"],
-                ["Soul", "灵魂乐"],
-                ["Space Rock", "太空摇滚"],
-                ["Synth-pop", "合成器流行"],
-                ["Synthwave", "合成器浪潮"],
-            ],
-            "T": [
-                ["Techno", "科技舞曲"],
-                ["Trap", "陷阱"],
-                ["Trance", "迷幻舞曲"],
-                ["Trip Hop", "旅行嘻哈"],
-            ],
-            "V": [
-                ["Vaporwave", "蒸汽波"],
-                ["Video Game Music", "游戏音乐"],
-                ["Vocal", "人声"],
-            ],
-            "W": [
-                ["World", "世界音乐"],
-            ],
-        };
-
-        const TEMPO_TAGS = {
-            "Very Slow": [
-                ["Largo", "广板 - 40-60 BPM"],
-                ["Grave", "庄严 - 20-40 BPM"],
-                ["Larghetto", "小广板 - 60-66 BPM"],
-            ],
-            "Slow": [
-                ["Adagio", "柔板 - 66-76 BPM"],
-                ["Lento", "慢板 - 45-60 BPM"],
-            ],
-            "Walking Pace": [
-                ["Andante", "行板 - 76-108 BPM"],
-                ["Andantino", "小行板"],
-            ],
-            "Moderate": [
-                ["Moderato", "中板 - 108-120 BPM"],
-                ["Allegretto", "小快板 - 112-120 BPM"],
-            ],
-            "Fast": [
-                ["Allegro", "快板 - 120-168 BPM"],
-                ["Vivace", "活泼板 - 140-176 BPM"],
-            ],
-            "Very Fast": [
-                ["Presto", "急板 - 168-200 BPM"],
-                ["Prestissimo", "最急板 - 200+ BPM"],
-            ],
-            "Additional": [
-                ["Accelerando", "渐快"],
-                ["Ritardando", "渐慢"],
-                ["Rubato", "自由速度"],
-                ["Con brio", "有活力"],
-            ],
-        };
-
-        const STYLE_TAGS = {
-            "Mood/Atmosphere": [
-                ["Atmospheric", "大气"],
-                ["Dark", "暗黑"],
-                ["Dreamy", "梦幻"],
-                ["Energetic", "活力"],
-                ["Emotional", "情感"],
-                ["Ethereal", "空灵"],
-                ["Happy", "快乐"],
-                ["Intense", "强烈"],
-                ["Melancholic", "忧郁"],
-                ["Mellow", "柔和"],
-                ["Nostalgic", "怀旧"],
-                ["Peaceful", "宁静"],
-                ["Romantic", "浪漫"],
-                ["Sad", "悲伤"],
-                ["Serious", "严肃"],
-                ["Spiritual", "精神"],
-                ["Triumphant", "胜利"],
-            ],
-            "Texture/Sound": [
-                ["Acoustic", "原声"],
-                ["Clean", "干净"],
-                ["Distorted", "失真"],
-                ["Heavy", "厚重"],
-                ["Layered", "层次丰富"],
-                ["Lo-fi", "低保真"],
-                ["Minimal", "极简"],
-                ["Orchestral", "管弦乐"],
-                ["Punchy", "有力"],
-                ["Raw", "原始"],
-                ["Rich", "丰富"],
-                ["Smooth", "平滑"],
-                ["Sparse", "稀疏"],
-                ["Texture", "质感"],
-            ],
-            "Rhythm/Groove": [
-                ["Driving", "驱动"],
-                ["Funky", "放克"],
-                ["Groovy", "律动"],
-                ["Hip-hop", "嘻哈节拍"],
-                ["Steady", "稳定"],
-                ["Swing", "摇摆"],
-                ["Syncopated", "切分"],
-            ],
-            "Vocal Style": [
-                ["Acapella", "无伴奏"],
-                ["Backing vocals", "和声"],
-                ["Choir", "合唱"],
-                ["Male vocals", "男声"],
-                ["Female vocals", "女声"],
-                ["Vocal chops", "人声切片"],
-                ["Whispering", "低语"],
-            ],
-            "Production Quality": [
-                ["Cinematic", "电影感"],
-                ["Club-ready", "俱乐部混音"],
-                ["High fidelity", "高保真"],
-                ["Lush", "丰富"],
-                ["Polished", "精细"],
-                ["Professional", "专业"],
-                ["Vintage", "复古"],
-            ],
-            "Instrumentation": [
-                ["Bass-heavy", "重低音"],
-                ["Bleep", "哔哔声"],
-                ["Drum machine", "鼓机"],
-                ["Electric guitar", "电吉他"],
-                ["Keys", "键盘"],
-                ["Orchestral", "管弦乐"],
-                ["Pads", "垫音"],
-                ["Percussion", "打击乐"],
-                ["Piano", "钢琴"],
-                ["Strings", "弦乐"],
-                ["Synth", "合成器"],
-            ],
-        };
-
-        const INSTRUMENT_TAGS = [
-            ["Acoustic Guitar", "原声吉他"],
-            ["Electric Guitar", "电吉他"],
-            ["Piano", "钢琴"],
-            ["Strings", "弦乐"],
-            ["Brass", "铜管"],
-            ["Synth", "合成器"],
-            ["Drums", "鼓"],
-            ["Bass", "贝斯"],
-            ["Violin", "小提琴"],
-            ["Cello", "大提琴"],
-            ["Flute", "长笛"],
-            ["Saxophone", "萨克斯"],
-            ["Trumpet", "小号"],
-            ["Harp", "竖琴"],
-            ["Organ", "风琴"],
-            ["Xylophone", "木琴"],
-        ];
+        // 数据直接嵌入
+        // 数据存储（从JSON文件加载）
+let sunoData = {"version": "1.0.0", "description": "Suno AI Prompt Generator 统一数据文件", "last_updated": "2026-02-22", "data": {"genres": {}, "tempos": {}, "styles": {}, "instruments": [], "lyrics_prompts": [], "structure_prompts": [], "dance_prompts": []}};
+        
+// 从JSON文件加载数据
+async function loadData() {
+    try {
+        const response = await fetch('suno_data.json');
+        const data = await response.json();
+        sunoData = data;
+        initAllSections();
+    } catch (error) {
+        console.error('加载数据失败:', error);
+        alert('Failed to load data from suno_data.json. / 无法从suno_data.json加载数据。\n\nPlease use an HTTP server: / 请使用HTTP服务器：\n1. Python: python -m http.server 8000\n2. VS Code: Right-click index.html -> "Open with Live Server"\n3. Then visit: http://localhost:8000/index.html');
+    }
+}
 
         // 状态管理
         let selectedGenres = new Set();
         let selectedTempos = new Set();
         let selectedStyles = new Set();
         let selectedInstruments = new Set();
+        let selectedBonus = new Set();
+        let selectedStructure = new Set();
+        let selectedDance = new Set();
+
+        // 分页状态
+        let bonusCurrentPage = 1;
+        let bonusItemsPerPage = 10;
+            let bonusCurrentData = [];
+        let structureCurrentPage = 1;
+        let structureItemsPerPage = 10;
+        let structureCurrentData = [];
+
+        let danceCurrentPage = 1;
+        let danceItemsPerPage = 10;
+        let danceCurrentData = [];
 
         // 初始化
-        document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', loadData);
+
+        // 初始化所有区域
+        function initAllSections() {
             initTabs();
             initGenreSection();
             initTempoSection();
             initStyleSection();
             initInstrumentSection();
+            initBonusSection();
+            initStructureSection();
+            initDanceSection();
             updateSelectionDisplay();
-        });
+        }
 
         // Tab切换
         function initTabs() {
@@ -979,25 +610,32 @@
         // Genre区域
         function initGenreSection() {
             const letterSelect = document.getElementById('genre-letter');
-            const searchInput = document.getElementById('genre-search');
+            const genres = Object.keys(sunoData.data.genres).sort();
+            
+            genres.forEach(letter => {
+                const option = document.createElement('option');
+                option.value = letter;
+                option.textContent = letter;
+                letterSelect.appendChild(option);
+            });
             
             letterSelect.addEventListener('change', () => {
                 showGenreTags(letterSelect.value);
             });
             
-            searchInput.addEventListener('input', () => {
-                searchGenreTags(searchInput.value);
+            document.getElementById('genre-search').addEventListener('input', (e) => {
+                searchGenreTags(e.target.value);
             });
             
-            showGenreTags('A');
+            showGenreTags(genres[0]);
         }
 
         function showGenreTags(letter) {
             const container = document.getElementById('genre-tags');
             container.innerHTML = '';
             
-            if (GENRE_TAGS[letter]) {
-                GENRE_TAGS[letter].forEach(([en, zh]) => {
+            if (sunoData.data.genres[letter]) {
+                sunoData.data.genres[letter].forEach(([en, zh]) => {
                     createTagItem(container, en, zh, 'genre', selectedGenres);
                 });
             }
@@ -1015,7 +653,7 @@
             const lowerQuery = query.toLowerCase();
             let found = false;
             
-            Object.entries(GENRE_TAGS).forEach(([letter, tags]) => {
+            Object.entries(sunoData.data.genres).forEach(([letter, tags]) => {
                 tags.forEach(([en, zh]) => {
                     if (en.toLowerCase().includes(lowerQuery) || zh.includes(lowerQuery)) {
                         createTagItem(container, en, zh, 'genre', selectedGenres);
@@ -1025,27 +663,35 @@
             });
             
             if (!found) {
-                container.innerHTML = '<div class="no-result">未找到匹配的标签</div>';
+                container.innerHTML = '<div class="no-result">No matching tags found 未找到匹配的标签</div>';
             }
         }
 
         // Tempo区域
         function initTempoSection() {
             const categorySelect = document.getElementById('tempo-category');
+            const tempos = Object.keys(sunoData.data.tempos);
+            
+            tempos.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categorySelect.appendChild(option);
+            });
             
             categorySelect.addEventListener('change', () => {
                 showTempoTags(categorySelect.value);
             });
             
-            showTempoTags('Very Slow');
+            showTempoTags(tempos[0]);
         }
 
         function showTempoTags(category) {
             const container = document.getElementById('tempo-tags');
             container.innerHTML = '';
             
-            if (TEMPO_TAGS[category]) {
-                TEMPO_TAGS[category].forEach(([en, zh]) => {
+            if (sunoData.data.tempos[category]) {
+                sunoData.data.tempos[category].forEach(([en, zh]) => {
                     createTagItem(container, en, zh, 'tempo', selectedTempos);
                 });
             }
@@ -1054,20 +700,28 @@
         // Style区域
         function initStyleSection() {
             const categorySelect = document.getElementById('style-category');
+            const styles = Object.keys(sunoData.data.styles);
+            
+            styles.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categorySelect.appendChild(option);
+            });
             
             categorySelect.addEventListener('change', () => {
                 showStyleTags(categorySelect.value);
             });
             
-            showStyleTags('Mood/Atmosphere');
+            showStyleTags(styles[0]);
         }
 
         function showStyleTags(category) {
             const container = document.getElementById('style-tags');
             container.innerHTML = '';
             
-            if (STYLE_TAGS[category]) {
-                STYLE_TAGS[category].forEach(([en, zh]) => {
+            if (sunoData.data.styles[category]) {
+                sunoData.data.styles[category].forEach(([en, zh]) => {
                     createTagItem(container, en, zh, 'style', selectedStyles);
                 });
             }
@@ -1075,10 +729,270 @@
 
         // Instrument区域
         function initInstrumentSection() {
+            showInstrumentTags();
+            
+            document.getElementById('instrument-search').addEventListener('input', (e) => {
+                searchInstrumentTags(e.target.value);
+            });
+        }
+
+        function showInstrumentTags() {
             const container = document.getElementById('instrument-tags');
-            INSTRUMENT_TAGS.forEach(([en, zh]) => {
+            container.innerHTML = '';
+            
+            sunoData.data.instruments.forEach(([en, zh]) => {
                 createTagItem(container, en, zh, 'instrument', selectedInstruments);
             });
+        }
+
+        function searchInstrumentTags(query) {
+            const container = document.getElementById('instrument-tags');
+            container.innerHTML = '';
+            
+            if (!query.trim()) {
+                showInstrumentTags();
+                return;
+            }
+            
+            const lowerQuery = query.toLowerCase();
+            let found = false;
+            
+            sunoData.data.instruments.forEach(([en, zh]) => {
+                if (en.toLowerCase().includes(lowerQuery) || zh.includes(lowerQuery)) {
+                    createTagItem(container, en, zh, 'instrument', selectedInstruments);
+                    found = true;
+                }
+            });
+            
+            if (!found) {
+                container.innerHTML = '<div class="no-result">No matching instruments found 未找到匹配的乐器</div>';
+            }
+        }
+
+        // Bonus区域
+        function initBonusSection() {
+            const categorySelect = document.getElementById('bonus-category');
+            const categories = ['All', ...new Set(sunoData.data.lyrics_prompts.map(p => p.category))];
+            
+            categories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                option.textContent = cat;
+                categorySelect.appendChild(option);
+            });
+            
+            categorySelect.addEventListener('change', () => {
+                bonusCurrentPage = 1;
+                showBonusTags(categorySelect.value);
+            });
+            
+            document.getElementById('bonus-search').addEventListener('input', (e) => {
+                bonusCurrentPage = 1;
+                searchBonusTags(e.target.value);
+            });
+            
+            showBonusTags('All');
+        }
+
+        function showBonusTags(category) {
+            document.getElementById('bonus-search').value = '';
+            
+            if (category === 'All') {
+                bonusCurrentData = sunoData.data.lyrics_prompts;
+            } else {
+                bonusCurrentData = sunoData.data.lyrics_prompts.filter(p => p.category === category);
+            }
+            
+            displayBonusPage();
+        }
+
+        function searchBonusTags(query) {
+            document.getElementById('bonus-category').value = 'All';
+            
+            if (!query.trim()) {
+                showBonusTags('All');
+                return;
+            }
+            
+            const lowerQuery = query.toLowerCase();
+            bonusCurrentData = sunoData.data.lyrics_prompts.filter(p => 
+                p.en_name.toLowerCase().includes(lowerQuery) || 
+                p.zh_name.includes(lowerQuery)
+            );
+            
+            displayBonusPage();
+        }
+
+        function displayBonusPage() {
+            const container = document.getElementById('bonus-tags');
+            container.innerHTML = '';
+            
+            if (bonusCurrentData.length === 0) {
+                container.innerHTML = '<div class="no-result">No matching prompts found 未找到匹配的提示词</div>';
+                document.getElementById('bonus-pagination').innerHTML = '';
+                return;
+            }
+            
+            const startIdx = (bonusCurrentPage - 1) * bonusItemsPerPage;
+            const endIdx = startIdx + bonusItemsPerPage;
+            const pageData = bonusCurrentData.slice(startIdx, endIdx);
+            
+            pageData.forEach(item => {
+                createPromptItem(container, item, 'bonus', selectedBonus);
+            });
+            
+            updatePagination('bonus', bonusCurrentData.length, bonusCurrentPage, bonusItemsPerPage);
+        }
+
+        // Structure区域
+        function initStructureSection() {
+            const categorySelect = document.getElementById('structure-category');
+            const categories = ['All', ...new Set(sunoData.data.structure_prompts.map(p => p.category))];
+            
+            categories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                option.textContent = cat;
+                categorySelect.appendChild(option);
+            });
+            
+            categorySelect.addEventListener('change', () => {
+                structureCurrentPage = 1;
+                showStructureTags(categorySelect.value);
+            });
+            
+            document.getElementById('structure-search').addEventListener('input', (e) => {
+                structureCurrentPage = 1;
+                searchStructureTags(e.target.value);
+            });
+            
+            showStructureTags('All');
+        }
+
+        function showStructureTags(category) {
+            document.getElementById('structure-search').value = '';
+            
+            if (category === 'All') {
+                structureCurrentData = sunoData.data.structure_prompts;
+            } else {
+                structureCurrentData = sunoData.data.structure_prompts.filter(p => p.category === category);
+            }
+            
+            displayStructurePage();
+        }
+
+        function searchStructureTags(query) {
+            document.getElementById('structure-category').value = 'All';
+            
+            if (!query.trim()) {
+                showStructureTags('All');
+                return;
+            }
+            
+            const lowerQuery = query.toLowerCase();
+            structureCurrentData = sunoData.data.structure_prompts.filter(p => 
+                p.en_name.toLowerCase().includes(lowerQuery) || 
+                p.zh_name.includes(lowerQuery)
+            );
+            
+            displayStructurePage();
+        }
+
+        function displayStructurePage() {
+            const container = document.getElementById('structure-tags');
+            container.innerHTML = '';
+            
+            if (structureCurrentData.length === 0) {
+                container.innerHTML = '<div class="no-result">未找到匹配的提示词</div>';
+                document.getElementById('structure-pagination').innerHTML = '';
+                return;
+            }
+            
+            const startIdx = (structureCurrentPage - 1) * structureItemsPerPage;
+            const endIdx = startIdx + structureItemsPerPage;
+            const pageData = structureCurrentData.slice(startIdx, endIdx);
+            
+            pageData.forEach(item => {
+                createPromptItem(container, item, 'structure', selectedStructure);
+            });
+            
+            updatePagination('structure', structureCurrentData.length, structureCurrentPage, structureItemsPerPage);
+        }
+
+        // Dance区域
+        function initDanceSection() {
+            const categorySelect = document.getElementById('dance-category');
+            const categories = ['All', ...new Set(sunoData.data.dance_prompts.flatMap(p => p.categories))];
+            
+            categories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat;
+                option.textContent = cat;
+                categorySelect.appendChild(option);
+            });
+            
+            categorySelect.addEventListener('change', () => {
+                danceCurrentPage = 1;
+                showDanceTags(categorySelect.value);
+            });
+            
+            document.getElementById('dance-search').addEventListener('input', (e) => {
+                danceCurrentPage = 1;
+                searchDanceTags(e.target.value);
+            });
+            
+            showDanceTags('All');
+        }
+
+        function showDanceTags(category) {
+            document.getElementById('dance-search').value = '';
+            
+            if (category === 'All') {
+                danceCurrentData = sunoData.data.dance_prompts;
+            } else {
+                danceCurrentData = sunoData.data.dance_prompts.filter(p => p.categories.includes(category));
+            }
+            
+            displayDancePage();
+        }
+
+        function searchDanceTags(query) {
+            document.getElementById('dance-category').value = 'All';
+            
+            if (!query.trim()) {
+                showDanceTags('All');
+                return;
+            }
+            
+            const lowerQuery = query.toLowerCase();
+            danceCurrentData = sunoData.data.dance_prompts.filter(p => 
+                p.en_name.toLowerCase().includes(lowerQuery) || 
+                p.zh_name.includes(lowerQuery) ||
+                p.zh_desc.includes(lowerQuery)
+            );
+            
+            displayDancePage();
+        }
+
+        function displayDancePage() {
+            const container = document.getElementById('dance-tags');
+            container.innerHTML = '';
+            
+            if (danceCurrentData.length === 0) {
+                container.innerHTML = '<div class="no-result">未找到匹配的提示词</div>';
+                document.getElementById('dance-pagination').innerHTML = '';
+                return;
+            }
+            
+            const startIdx = (danceCurrentPage - 1) * danceItemsPerPage;
+            const endIdx = startIdx + danceItemsPerPage;
+            const pageData = danceCurrentData.slice(startIdx, endIdx);
+            
+            pageData.forEach(item => {
+                createPromptItem(container, item, 'dance', selectedDance, true);
+            });
+            
+            updatePagination('dance', danceCurrentData.length, danceCurrentPage, danceItemsPerPage);
         }
 
         // 创建标签项
@@ -1101,17 +1015,120 @@
             `;
             
             div.addEventListener('click', () => {
-                if (selectedSet.has(en)) {
-                    selectedSet.delete(en);
-                    div.classList.remove('selected');
-                } else {
-                    selectedSet.add(en);
-                    div.classList.add('selected');
-                }
-                updateSelectionDisplay();
+                toggleSelection(en, type, selectedSet, div);
             });
             
             container.appendChild(div);
+        }
+
+        // 创建提示词项
+        function createPromptItem(container, item, type, selectedSet, showDesc = false) {
+            const div = document.createElement('div');
+            div.className = 'tag-item';
+            div.dataset.value = item.en_name;
+            div.dataset.type = type;
+            
+            if (selectedSet.has(item.en_name)) {
+                div.classList.add('selected');
+            }
+            
+            let descHtml = '';
+            if (showDesc && item.zh_desc) {
+                const shortDesc = item.zh_desc.length > 60 ? item.zh_desc.substring(0, 60) + '...' : item.zh_desc;
+                descHtml = `<div class="tag-desc">${shortDesc}</div>`;
+            }
+            
+            div.innerHTML = `
+                <div class="tag-checkbox"></div>
+                <div class="tag-text">
+                    <div class="tag-en">${item.en_name}</div>
+                    <div class="tag-zh">${item.zh_name}</div>
+                    ${descHtml}
+                </div>
+            `;
+            
+            div.addEventListener('click', () => {
+                toggleSelection(item.en_name, type, selectedSet, div);
+            });
+            
+            container.appendChild(div);
+        }
+
+        // 切换选择
+        function toggleSelection(value, type, selectedSet, element) {
+            if (selectedSet.has(value)) {
+                selectedSet.delete(value);
+                element.classList.remove('selected');
+            } else {
+                selectedSet.add(value);
+                element.classList.add('selected');
+            }
+            updateSelectionDisplay();
+        }
+
+        // 更新分页
+        function updatePagination(type, totalItems, currentPage, itemsPerPage) {
+            const totalPages = Math.ceil(totalItems / itemsPerPage);
+            const container = document.getElementById(`${type}-pagination`);
+            
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+            
+            let html = `
+                <button onclick="${type}PrevPage()" ${currentPage === 1 ? 'disabled' : ''}>Previous 上一页</button>
+                <span class="pagination-info">${currentPage}/${totalPages} (Total ${totalItems} items / 共${totalItems}项)</span>
+                <button onclick="${type}NextPage()" ${currentPage === totalPages ? 'disabled' : ''}>Next 下一页</button>
+            `;
+            
+            container.innerHTML = html;
+        }
+
+        // 分页导航
+        function bonusPrevPage() {
+            if (bonusCurrentPage > 1) {
+                bonusCurrentPage--;
+                displayBonusPage();
+            }
+        }
+
+        function bonusNextPage() {
+            const totalPages = Math.ceil(bonusCurrentData.length / bonusItemsPerPage);
+            if (bonusCurrentPage < totalPages) {
+                bonusCurrentPage++;
+                displayBonusPage();
+            }
+        }
+
+        function structurePrevPage() {
+            if (structureCurrentPage > 1) {
+                structureCurrentPage--;
+                displayStructurePage();
+            }
+        }
+
+        function structureNextPage() {
+            const totalPages = Math.ceil(structureCurrentData.length / structureItemsPerPage);
+            if (structureCurrentPage < totalPages) {
+                structureCurrentPage++;
+                displayStructurePage();
+            }
+        }
+
+        function dancePrevPage() {
+            if (danceCurrentPage > 1) {
+                danceCurrentPage--;
+                displayDancePage();
+            }
+        }
+
+        function danceNextPage() {
+            const totalPages = Math.ceil(danceCurrentData.length / danceItemsPerPage);
+            if (danceCurrentPage < totalPages) {
+                danceCurrentPage++;
+                displayDancePage();
+            }
         }
 
         // 更新选择显示
@@ -1124,6 +1141,9 @@
                 { name: 'Tempo', items: selectedTempos },
                 { name: 'Style', items: selectedStyles },
                 { name: 'Instruments', items: selectedInstruments },
+                {name: 'Bonus Prompts', items: selectedBonus},
+                { name: 'Structure Prompts', items: selectedStructure },
+                { name: 'Dance Prompts', items: selectedDance },
             ];
             
             sections.forEach(section => {
@@ -1133,11 +1153,11 @@
             });
             
             if (!display.innerHTML) {
-                display.innerHTML = '<span style="color: #999;">暂无选择</span>';
+                display.innerHTML = '<span style="color: #999;">No selection / 暂无选择</span>';
             }
         }
 
-        // 生成提示词
+        // 生成提示词 / Generate Prompt
         function generatePrompt() {
             const promptParts = [];
             
@@ -1153,9 +1173,24 @@
             if (selectedInstruments.size > 0) {
                 promptParts.push(...selectedInstruments);
             }
+            if (selectedBonus.size > 0) {
+                promptParts.push(...selectedBonus);
+            }
+            if (selectedStructure.size > 0) {
+                promptParts.push(...selectedStructure);
+            }
+            if (selectedDance.size > 0) {
+                // Dance使用英文描述
+                selectedDance.forEach(name => {
+                    const prompt = sunoData.data.dance_prompts.find(p => p.en_name === name);
+                    if (prompt) {
+                        promptParts.push(prompt.en_desc);
+                    }
+                });
+            }
             
             if (promptParts.length === 0) {
-                alert('请至少选择一个标签！');
+                alert('Please select at least one tag / 请至少选择一个标签！');
                 return;
             }
             
@@ -1181,12 +1216,12 @@
         function copyPrompt() {
             const prompt = document.getElementById('prompt-output').textContent;
             if (!prompt) {
-                alert('没有可复制的内容！');
+                alert('Nothing to copy / 没有可复制的内容！');
                 return;
             }
             
             navigator.clipboard.writeText(prompt).then(() => {
-                alert('提示词已复制到剪贴板！');
+                alert('Prompt copied to clipboard / 提示词已复制到剪贴板！');
             }).catch(() => {
                 // 降级方案
                 const textarea = document.createElement('textarea');
@@ -1205,6 +1240,9 @@
             selectedTempos.clear();
             selectedStyles.clear();
             selectedInstruments.clear();
+            selectedBonus.clear();
+            selectedStructure.clear();
+            selectedDance.clear();
             
             document.querySelectorAll('.tag-item').forEach(item => {
                 item.classList.remove('selected');
